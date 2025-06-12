@@ -1,0 +1,21 @@
+site_name: Moje Projekty
+site_author: Piotr Mazur
+site_description: >-
+    Portfolio moich projektów z Data Science i AI
+
+extra_css:
+  - css/primary_color.css
+
+theme:
+  name: material 
+  palette:
+    primary: custom 
+
+
+nav:
+- Strona Domowa: index.md
+- Obecny projekt:
+  - "Image Finder": imagefinder/index.md
+- Poprzednie projekty:
+  - "Iris": iris/index.md
+  - "Titanic": titanic/index.md
