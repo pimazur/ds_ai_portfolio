@@ -1,7 +1,11 @@
 site_name: Moje Projekty
 site_author: Piotr Mazur
+site_url: https://pimazur.github.io/ds_ai_portfolio/
 site_description: >-
     Portfolio moich projektów z Data Science i AI
+
+repo_name: pimazur/ds_ai_portfolio
+repo_url: https://github.com/pimazur/ds_ai_portfolio
 
 extra_css:
   - css/primary_color.css
@@ -15,7 +19,8 @@ theme:
 nav:
 - Strona Domowa: index.md
 - Obecny projekt:
-  - "Image Finder": imagefinder/index.md
+  - "Video/Audio summary": video_audio_summary/index.md
 - Poprzednie projekty:
+  - "Image Finder": image_finder/index.md
   - "Iris": iris/index.md
   - "Titanic": titanic/index.md

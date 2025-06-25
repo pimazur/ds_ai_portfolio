@@ -1,5 +1,5 @@
 
-# Analiza Danych EDA Irysów: Eksploracja Domenowa
+# Analiza Danych EDA Titanica: Eksploracja Domenowa
 
 <p style="text-align: left;">
 Zapraszam do zapoznania się z moją analizą popularnego zbioru danych dotyczącego katastrofy Titanica za pomocą eksploracji domenowej (EDA).
