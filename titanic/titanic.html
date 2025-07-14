@@ -7552,29 +7552,26 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="O-Danych">O Danych<a class="anchor-link" href="#O-Danych">¶</a></h2><p>Dane o pasażerach Titanica</p>
-<p>Zbiór danych zawiera informacje o pasażerach RMS Titanic, który zatonął 15 kwietnia 1912 roku po zderzeniu z górą
-lodową. Dane obejmują takie atrybuty jak klasa podróży, wiek, płeć, liczba rodzeństwa/małżonków na pokładzie,
-liczba rodziców/dzieci na pokładzie, cena biletu oraz miejsce zaokrętowania.</p>
-<p>Zbiór zawiera także informację o tym, czy pasażer przeżył katastrofę.</p>
-<p>Titanic przewoził ponad 2,200 osób, z czego ponad 1,500 zginęło, co czyni tę katastrofę jedną z najbardziej
-tragicznych w historii morskiej.</p>
-<p>Kolumny:</p>
+<h2 id="ABOUT-THE-DATA">ABOUT THE DATA<a class="anchor-link" href="#ABOUT-THE-DATA">¶</a></h2>
+<p style="text-align: justify;">The dataset contains information about the passengers of the RMS Titanic, which sank on April 15, 1912, after colliding with an iceberg. The data includes attributes such as passenger class, age, gender, number of siblings/spouses aboard, number of parents/children aboard, ticket price, and embarkation location.</p>
+<p style="text-align: justify;">The dataset also includes information on whether the passenger survived the disaster.</p>
+<p style="text-align: justify;">The Titanic carried over 2,200 people, of whom over 1,500 perished, making this disaster one of the most tragic in maritime history.</p>
+<p>Columns:</p>
 <ul>
-<li><strong>pclass</strong> - Klasa biletu</li>
-<li><strong>survived</strong> - Czy pasażer przeżył katastrofę</li>
-<li><strong>name</strong> - Imię i nazwisko pasażera</li>
-<li><strong>sex</strong> - Płeć pasażera</li>
-<li><strong>age</strong> - Wiek pasażera</li>
-<li><strong>sibsp</strong> - Liczba rodzeństwa/małżonków na pokładzie</li>
-<li><strong>parch</strong> - Liczba rodziców/dzieci na pokładzie</li>
-<li><strong>ticket</strong> - Numer biletu</li>
-<li><strong>fare</strong> - Cena biletu</li>
-<li><strong>cabin</strong> - Numer kabiny</li>
-<li><strong>embarked</strong> - Port, w którym pasażer wszedł na pokład (C = Cherbourg, Q = Queenstown, S = Southampton)</li>
-<li><strong>boat</strong> - Numer łodzi ratunkowej</li>
-<li><strong>body</strong> - Numer ciała (jeśli pasażer nie przeżył i ciało zostało odnalezione)</li>
-<li><strong>home.dest</strong> - Miejsce docelowe</li>
+<li><strong>pclass</strong> - Ticket class</li>
+<li><strong>survived</strong> - Did the passenger survive the disaster</li>
+<li><strong>name</strong> - Passenger name</li>
+<li><strong>sex</strong> - Passenger gender</li>
+<li><strong>age</strong> - Passenger age</li>
+<li><strong>sibsp</strong> - Number of siblings/spouses aboard</li>
+<li><strong>parch</strong> - Number of parents/children aboard</li>
+<li><strong>ticket</strong> - Ticket number</li>
+<li><strong>fare</strong> - Ticket price</li>
+<li><strong>cabin</strong> - Cabin number</li>
+<li><strong>embarked</strong> - Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)</li>
+<li><strong>boat</strong> - Lifeboat number</li>
+<li><strong>body</strong> - Body number (if the passenger did not survive and the body was recovered)</li>
+<li><strong>home.dest</strong> - Destination</li>
 </ul>
 </div>
 </div>
@@ -7870,270 +7867,185 @@ tragicznych w historii morskiej.</p>
 </thead>
 <tbody>
 <tr>
-<th>679</th>
-<td>3.0</td>
-<td>0.0</td>
-<td>Boulos, Miss. Nourelain</td>
-<td>female</td>
-<td>9.0000</td>
+<th>266</th>
 <td>1.0</td>
-<td>1.0</td>
-<td>2678</td>
-<td>15.2458</td>
-<td>NaN</td>
-<td>C</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>Syria Kent, ON</td>
-</tr>
-<tr>
-<th>918</th>
-<td>3.0</td>
 <td>0.0</td>
-<td>Kassem, Mr. Fared</td>
+<td>Smart, Mr. John Montgomery</td>
 <td>male</td>
-<td>NaN</td>
+<td>56.0</td>
 <td>0.0</td>
 <td>0.0</td>
-<td>2700</td>
-<td>7.2292</td>
-<td>NaN</td>
-<td>C</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>NaN</td>
-</tr>
-<tr>
-<th>948</th>
-<td>3.0</td>
-<td>0.0</td>
-<td>Lane, Mr. Patrick</td>
-<td>male</td>
-<td>NaN</td>
-<td>0.0</td>
-<td>0.0</td>
-<td>7935</td>
-<td>7.7500</td>
-<td>NaN</td>
-<td>Q</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>NaN</td>
-</tr>
-<tr>
-<th>928</th>
-<td>3.0</td>
-<td>0.0</td>
-<td>Khalil, Mrs. Betros (Zahie "Maria" Elias)</td>
-<td>female</td>
-<td>NaN</td>
-<td>1.0</td>
-<td>0.0</td>
-<td>2660</td>
-<td>14.4542</td>
-<td>NaN</td>
-<td>C</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>NaN</td>
-</tr>
-<tr>
-<th>1173</th>
-<td>3.0</td>
-<td>0.0</td>
-<td>Sage, Miss. Constance Gladys</td>
-<td>female</td>
-<td>NaN</td>
-<td>8.0</td>
-<td>2.0</td>
-<td>CA. 2343</td>
-<td>69.5500</td>
+<td>113792</td>
+<td>26.5500</td>
 <td>NaN</td>
 <td>S</td>
 <td>NaN</td>
-<td>NaN</td>
-<td>NaN</td>
-</tr>
-<tr>
-<th>21</th>
-<td>1.0</td>
-<td>1.0</td>
-<td>Beckwith, Mrs. Richard Leonard (Sallie Monypeny)</td>
-<td>female</td>
-<td>47.0000</td>
-<td>1.0</td>
-<td>1.0</td>
-<td>11751</td>
-<td>52.5542</td>
-<td>D35</td>
-<td>S</td>
-<td>5</td>
 <td>NaN</td>
 <td>New York, NY</td>
 </tr>
 <tr>
-<th>548</th>
-<td>2.0</td>
-<td>1.0</td>
-<td>Richards, Master. George Sibley</td>
-<td>male</td>
-<td>0.8333</td>
+<th>149</th>
 <td>1.0</td>
 <td>1.0</td>
-<td>29106</td>
-<td>18.7500</td>
-<td>NaN</td>
-<td>S</td>
-<td>4</td>
-<td>NaN</td>
-<td>Cornwall / Akron, OH</td>
-</tr>
-<tr>
-<th>672</th>
-<td>3.0</td>
-<td>0.0</td>
-<td>Betros, Master. Seman</td>
-<td>male</td>
-<td>NaN</td>
-<td>0.0</td>
-<td>0.0</td>
-<td>2622</td>
-<td>7.2292</td>
-<td>NaN</td>
-<td>C</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>NaN</td>
-</tr>
-<tr>
-<th>764</th>
-<td>3.0</td>
-<td>0.0</td>
-<td>Dean, Mr. Bertram Frank</td>
-<td>male</td>
-<td>26.0000</td>
-<td>1.0</td>
-<td>2.0</td>
-<td>C.A. 2315</td>
-<td>20.5750</td>
-<td>NaN</td>
-<td>S</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>Devon, England Wichita, KS</td>
-</tr>
-<tr>
-<th>27</th>
-<td>1.0</td>
-<td>1.0</td>
-<td>Bishop, Mrs. Dickinson H (Helen Walton)</td>
+<td>Harris, Mrs. Henry Birkhardt (Irene Wallach)</td>
 <td>female</td>
-<td>19.0000</td>
+<td>35.0</td>
 <td>1.0</td>
 <td>0.0</td>
-<td>11967</td>
-<td>91.0792</td>
-<td>B49</td>
-<td>C</td>
-<td>7</td>
+<td>36973</td>
+<td>83.4750</td>
+<td>C83</td>
+<td>S</td>
+<td>D</td>
 <td>NaN</td>
-<td>Dowagiac, MI</td>
+<td>New York, NY</td>
 </tr>
 <tr>
-<th>615</th>
+<th>1219</th>
 <td>3.0</td>
 <td>0.0</td>
-<td>Alhomaki, Mr. Ilmari Rudolf</td>
+<td>Spector, Mr. Woolf</td>
 <td>male</td>
-<td>20.0000</td>
+<td>NaN</td>
 <td>0.0</td>
 <td>0.0</td>
-<td>SOTON/O2 3101287</td>
-<td>7.9250</td>
+<td>A.5. 3236</td>
+<td>8.0500</td>
 <td>NaN</td>
 <td>S</td>
 <td>NaN</td>
 <td>NaN</td>
-<td>Salo, Finland Astoria, OR</td>
+<td>NaN</td>
 </tr>
 <tr>
-<th>61</th>
+<th>949</th>
+<td>3.0</td>
 <td>1.0</td>
-<td>1.0</td>
-<td>Cavendish, Mrs. Tyrell William (Julia Florence...</td>
-<td>female</td>
-<td>76.0000</td>
+<td>Lang, Mr. Fang</td>
+<td>male</td>
+<td>26.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>1601</td>
+<td>56.4958</td>
+<td>NaN</td>
+<td>S</td>
+<td>14</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>414</th>
+<td>2.0</td>
+<td>0.0</td>
+<td>Gale, Mr. Shadrach</td>
+<td>male</td>
+<td>34.0</td>
 <td>1.0</td>
 <td>0.0</td>
-<td>19877</td>
-<td>78.8500</td>
-<td>C46</td>
-<td>S</td>
-<td>6</td>
+<td>28664</td>
+<td>21.0000</td>
 <td>NaN</td>
-<td>Little Onn Hall, Staffs</td>
+<td>S</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>Cornwall / Clear Creek, CO</td>
 </tr>
 <tr>
-<th>1296</th>
+<th>1218</th>
 <td>3.0</td>
 <td>0.0</td>
-<td>Wirz, Mr. Albert</td>
+<td>Somerton, Mr. Francis William</td>
 <td>male</td>
-<td>27.0000</td>
+<td>30.0</td>
 <td>0.0</td>
 <td>0.0</td>
-<td>315154</td>
+<td>A.5. 18509</td>
+<td>8.0500</td>
+<td>NaN</td>
+<td>S</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>1092</th>
+<td>3.0</td>
+<td>0.0</td>
+<td>Oreskovic, Mr. Luka</td>
+<td>male</td>
+<td>20.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>315094</td>
 <td>8.6625</td>
 <td>NaN</td>
 <td>S</td>
 <td>NaN</td>
-<td>131.0</td>
+<td>NaN</td>
 <td>NaN</td>
 </tr>
 <tr>
-<th>341</th>
-<td>2.0</td>
+<th>88</th>
 <td>1.0</td>
-<td>Becker, Miss. Ruth Elizabeth</td>
+<td>1.0</td>
+<td>Daniels, Miss. Sarah</td>
 <td>female</td>
-<td>12.0000</td>
-<td>2.0</td>
-<td>1.0</td>
-<td>230136</td>
-<td>39.0000</td>
-<td>F4</td>
-<td>S</td>
-<td>13</td>
-<td>NaN</td>
-<td>Guntur, India / Benton Harbour, MI</td>
-</tr>
-<tr>
-<th>558</th>
-<td>2.0</td>
-<td>1.0</td>
-<td>Silven, Miss. Lyyli Karoliina</td>
-<td>female</td>
-<td>18.0000</td>
+<td>33.0</td>
 <td>0.0</td>
-<td>2.0</td>
-<td>250652</td>
-<td>13.0000</td>
+<td>0.0</td>
+<td>113781</td>
+<td>151.5500</td>
 <td>NaN</td>
 <td>S</td>
-<td>16</td>
+<td>8</td>
 <td>NaN</td>
-<td>Finland / Minneapolis, MN</td>
+<td>NaN</td>
 </tr>
 <tr>
-<th>1297</th>
+<th>1018</th>
 <td>3.0</td>
 <td>0.0</td>
-<td>Wiseman, Mr. Phillippe</td>
+<td>Miles, Mr. Frank</td>
 <td>male</td>
 <td>NaN</td>
 <td>0.0</td>
 <td>0.0</td>
-<td>A/4. 34244</td>
+<td>359306</td>
+<td>8.0500</td>
+<td>NaN</td>
+<td>S</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>832</th>
+<td>3.0</td>
+<td>0.0</td>
+<td>Goodwin, Mrs. Frederick (Augusta Tyler)</td>
+<td>female</td>
+<td>43.0</td>
+<td>1.0</td>
+<td>6.0</td>
+<td>CA 2144</td>
+<td>46.9000</td>
+<td>NaN</td>
+<td>S</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>Wiltshire, England Niagara Falls, NY</td>
+</tr>
+<tr>
+<th>1295</th>
+<td>3.0</td>
+<td>0.0</td>
+<td>Windelov, Mr. Einar</td>
+<td>male</td>
+<td>21.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>SOTON/OQ 3101317</td>
 <td>7.2500</td>
 <td>NaN</td>
 <td>S</td>
@@ -8142,72 +8054,157 @@ tragicznych w historii morskiej.</p>
 <td>NaN</td>
 </tr>
 <tr>
-<th>1243</th>
-<td>3.0</td>
+<th>518</th>
+<td>2.0</td>
 <td>0.0</td>
-<td>Thomas, Mr. Tannous</td>
+<td>Nicholls, Mr. Joseph Charles</td>
 <td>male</td>
-<td>NaN</td>
-<td>0.0</td>
-<td>0.0</td>
-<td>2684</td>
-<td>7.2250</td>
-<td>NaN</td>
-<td>C</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>NaN</td>
-</tr>
-<tr>
-<th>611</th>
-<td>3.0</td>
+<td>19.0</td>
 <td>1.0</td>
-<td>Aks, Master. Philip Frank</td>
-<td>male</td>
-<td>0.8333</td>
-<td>0.0</td>
 <td>1.0</td>
-<td>392091</td>
-<td>9.3500</td>
+<td>C.A. 33112</td>
+<td>36.7500</td>
 <td>NaN</td>
 <td>S</td>
-<td>11</td>
 <td>NaN</td>
-<td>London, England Norfolk, VA</td>
+<td>101.0</td>
+<td>Cornwall / Hancock, MI</td>
 </tr>
 <tr>
-<th>234</th>
-<td>1.0</td>
+<th>1087</th>
+<td>3.0</td>
 <td>0.0</td>
-<td>Reuchlin, Jonkheer. John George</td>
+<td>Olsson, Mr. Nils Johan Goransson</td>
 <td>male</td>
-<td>38.0000</td>
+<td>28.0</td>
 <td>0.0</td>
 <td>0.0</td>
-<td>19972</td>
-<td>0.0000</td>
+<td>347464</td>
+<td>7.8542</td>
 <td>NaN</td>
 <td>S</td>
 <td>NaN</td>
 <td>NaN</td>
-<td>Rotterdam, Netherlands</td>
+<td>NaN</td>
 </tr>
 <tr>
-<th>1032</th>
+<th>1285</th>
 <td>3.0</td>
 <td>0.0</td>
-<td>Morrow, Mr. Thomas Rowan</td>
+<td>Wenzel, Mr. Linhart</td>
+<td>male</td>
+<td>32.5</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>345775</td>
+<td>9.5000</td>
+<td>NaN</td>
+<td>S</td>
+<td>NaN</td>
+<td>298.0</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>929</th>
+<td>3.0</td>
+<td>0.0</td>
+<td>Kiernan, Mr. John</td>
 <td>male</td>
 <td>NaN</td>
+<td>1.0</td>
 <td>0.0</td>
-<td>0.0</td>
-<td>372622</td>
+<td>367227</td>
 <td>7.7500</td>
 <td>NaN</td>
 <td>Q</td>
 <td>NaN</td>
 <td>NaN</td>
 <td>NaN</td>
+</tr>
+<tr>
+<th>1270</th>
+<td>3.0</td>
+<td>0.0</td>
+<td>Vande Walle, Mr. Nestor Cyriel</td>
+<td>male</td>
+<td>28.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>345770</td>
+<td>9.5000</td>
+<td>NaN</td>
+<td>S</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>1134</th>
+<td>3.0</td>
+<td>0.0</td>
+<td>Pokrnic, Mr. Tome</td>
+<td>male</td>
+<td>24.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>315092</td>
+<td>8.6625</td>
+<td>NaN</td>
+<td>S</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>691</th>
+<td>3.0</td>
+<td>0.0</td>
+<td>Brocklebank, Mr. William Alfred</td>
+<td>male</td>
+<td>35.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>364512</td>
+<td>8.0500</td>
+<td>NaN</td>
+<td>S</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>Broomfield, Chelmsford, England</td>
+</tr>
+<tr>
+<th>699</th>
+<td>3.0</td>
+<td>0.0</td>
+<td>Cacic, Mr. Luka</td>
+<td>male</td>
+<td>38.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>315089</td>
+<td>8.6625</td>
+<td>NaN</td>
+<td>S</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>Croatia</td>
+</tr>
+<tr>
+<th>364</th>
+<td>2.0</td>
+<td>0.0</td>
+<td>Carbines, Mr. William</td>
+<td>male</td>
+<td>19.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>28424</td>
+<td>13.0000</td>
+<td>NaN</td>
+<td>S</td>
+<td>NaN</td>
+<td>18.0</td>
+<td>St Ives, Cornwall / Calumet, MI</td>
 </tr>
 </tbody>
 </table>
@@ -8222,7 +8219,7 @@ tragicznych w historii morskiej.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="1.-ZROZUMIENIE-DANYCH:">1. ZROZUMIENIE DANYCH:<a class="anchor-link" href="#1.-ZROZUMIENIE-DANYCH:">¶</a></h2>
+<h2 id="1.-UNDERSTANDING-OF-THE-DATA:">1. UNDERSTANDING OF THE DATA:<a class="anchor-link" href="#1.-UNDERSTANDING-OF-THE-DATA:">¶</a></h2>
 </div>
 </div>
 </div>
@@ -8232,7 +8229,7 @@ tragicznych w historii morskiej.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="WST%C4%98PNE-OBSERWACJE:">WSTĘPNE OBSERWACJE:<a class="anchor-link" href="#WST%C4%98PNE-OBSERWACJE:">¶</a></h4><p>Na pierwszy rzut oka widzimy, że nie posiadamy danych wszystkich pasażerów - jak w opisie - było ich około 2200, natomiast nasz zbiór ma 1310 rekordów. Większość z nich płynęło w 3. klasie - pasażerów z 1. i 2. klasy jest znacznie mniej. W naszej próbce mamy prawie połowę pasażerów, którzy przeżyli katastrofę - możliwe, że zbiór zawiera dane osób, które przeżyły oraz jedynie tych zmarłych, których udało się zidentyfikować. Wiek pasażerów jest zróżnicowany, a w niektórych rekordach brakuje tej danej. Większość pasażerów płynęła bez rodzin i przeważa wśród nich płeć męska. Ciekawostką są ceny biletów, bardzo zróżnicowane nawet wśród tej samej klasy. Widzimy, że większość pasażerów wsiadła na Titanica w porcie "Southampton". Natomiast jeśli chodzi o ciała to bardzo niewielka liczba została odnaleziona.</p>
+<h4 id="INITIAL-OBSERVATIONS:">INITIAL OBSERVATIONS:<a class="anchor-link" href="#INITIAL-OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">At first glance, we see that we do not have data for all passengers – as described, there were around 2,200, while our dataset contains 1,310 records. Most of them traveled in 3rd class, with significantly fewer passengers in 1st and 2nd class. In our sample, we have nearly half of the passengers who survived the disaster – it is possible that the dataset includes data for those who survived as well as those deceased who were identified. The ages of the passengers vary, and some records are missing this information. Most passengers traveled without families, and there is a predominance of male passengers. An interesting note is that ticket prices are highly varied, even within the same class. We see that the majority of passengers embarked on the Titanic at the port of "Southampton." However, when it comes to bodies, very few were recovered.</p>
 </div>
 </div>
 </div>
@@ -8242,7 +8239,7 @@ tragicznych w historii morskiej.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="PODSTAWOWE-STATYSTYKI-DOTYCZ%C4%84CE-KOLUMN-NUMERYCZNYCH:">PODSTAWOWE STATYSTYKI DOTYCZĄCE KOLUMN NUMERYCZNYCH:<a class="anchor-link" href="#PODSTAWOWE-STATYSTYKI-DOTYCZ%C4%84CE-KOLUMN-NUMERYCZNYCH:">¶</a></h4>
+<h4 id="BASIC-STATISTICS-FOR-NUMERIC-COLUMNS:">BASIC STATISTICS FOR NUMERIC COLUMNS:<a class="anchor-link" href="#BASIC-STATISTICS-FOR-NUMERIC-COLUMNS:">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8374,7 +8371,7 @@ tragicznych w historii morskiej.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="ILE-UNIKALNYCH-WARTO%C5%9ACI-MA-KA%C5%BBDA-Z-KOLUMN:">ILE UNIKALNYCH WARTOŚCI MA KAŻDA Z KOLUMN:<a class="anchor-link" href="#ILE-UNIKALNYCH-WARTO%C5%9ACI-MA-KA%C5%BBDA-Z-KOLUMN:">¶</a></h4>
+<h4 id="NUMBER-OF-UNIQUE-VALUES-THAT-EACH-COLUMN-HAS:">NUMBER OF UNIQUE VALUES THAT EACH COLUMN HAS:<a class="anchor-link" href="#NUMBER-OF-UNIQUE-VALUES-THAT-EACH-COLUMN-HAS:">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8409,8 +8406,8 @@ tragicznych w historii morskiej.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="SZCZEG%C3%93%C5%81OWE-OBSERWACJE:">SZCZEGÓŁOWE OBSERWACJE:<a class="anchor-link" href="#SZCZEG%C3%93%C5%81OWE-OBSERWACJE:">¶</a></h4><p>Z ciekawszych rzeczy możemy zobaczyć, że średnia wieku wynosiła koło 30 lat, a mediana 28, więc większość pasażerów stanowiły osoby młode. Najmłodszym uczestnikiem było dwumiesięczne niemowlę, a najstarsza osoba miała 80 lat. Widzimy również, że odnaleziono jedynie 121 ciał z ponad 800 ludzi zmarłych.</p>
-<p>Na statku było przynajmniej 186 kabin, co pokazuje jego wielkość. Liczba szalup użytych do ewakuacji to jedynie 27 łódek.</p>
+<h4 id="DETAILED-OBSERVATIONS:">DETAILED OBSERVATIONS:<a class="anchor-link" href="#DETAILED-OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">Interestingly, we can see that the average age was around 30 years, while the median was 28, indicating that most passengers were young individuals. The youngest participant was a two-month-old infant, and the oldest person was 80 years old. We also see that only 121 bodies were recovered from over 800 deceased individuals.</p>
+<p style="text-align: justify;">The ship had at least 186 cabins, which illustrates its size. The number of lifeboats used for evacuation was only 27.</p>
 </div>
 </div>
 </div>
@@ -8420,7 +8417,7 @@ tragicznych w historii morskiej.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="2.-BRAKUJ%C4%84CE-WARTO%C5%9ACI:">2. BRAKUJĄCE WARTOŚCI:<a class="anchor-link" href="#2.-BRAKUJ%C4%84CE-WARTO%C5%9ACI:">¶</a></h2>
+<h2 id="2.-MISSING-VALUES:">2. MISSING VALUES:<a class="anchor-link" href="#2.-MISSING-VALUES:">¶</a></h2>
 </div>
 </div>
 </div>
@@ -8456,7 +8453,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE:">OBSERWACJE:<a class="anchor-link" href="#OBSERWACJE:">¶</a></h4><p>Widzimy, że brakuje aż 264 wartości w kolumnie "wiek". Także w znacznej większości rekordów brakuje danych dotyczących kabiny. W kilku kolumnach brakuje tylko jednej wartości. Z ciekawości możemy sprawdzić czy dotyczą one tego samego rekordu:</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">We can see that there are 264 missing values in the "age" column. Additionally, a significant number of records are missing data regarding the cabin. In a few columns, there is only one value missing. Out of curiosity, we can check whether these missing values pertain to the same record:</p>
 </div>
 </div>
 </div>
@@ -8515,7 +8512,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE:">OBSERWACJE:<a class="anchor-link" href="#OBSERWACJE:">¶</a></h4><p>Faktycznie możemy zobaczyć w miejscu gdzie wyświetliliśmy cały DataFrame, że ostatni rekord o indeksie 1309 jest całkowicie pusty. Możemy więc go usunąć.</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">Indeed, we can see in the section where we displayed the entire DataFrame that the last record with index 1309 is completely empty. Therefore, we can remove it.</p>
 </div>
 </div>
 </div>
@@ -8762,7 +8759,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="3.-EKSPLORACJA-POSZCZEG%C3%93LNYCH-KOLUMN:">3. EKSPLORACJA POSZCZEGÓLNYCH KOLUMN:<a class="anchor-link" href="#3.-EKSPLORACJA-POSZCZEG%C3%93LNYCH-KOLUMN:">¶</a></h2>
+<h2 id="3.-EXPLORATION-OF-INDIVIDUAL-COLUMNS:">3. EXPLORATION OF INDIVIDUAL COLUMNS:<a class="anchor-link" href="#3.-EXPLORATION-OF-INDIVIDUAL-COLUMNS:">¶</a></h2>
 </div>
 </div>
 </div>
@@ -8789,7 +8786,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE:">OBSERWACJE:<a class="anchor-link" href="#OBSERWACJE:">¶</a></h4><p>Widzimy, że najwięcej osób było między około 18, a 32 rokiem życia. Widzimy też, że było stosunkowo dużo kilkuletnich dzieci - znacznie więcej, niż osób starszych po 60 roku życia.</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">We see that the majority of individuals were between approximately 18 and 32 years old. We also note that there were relatively many young children, significantly more than elderly individuals over 60 years old.</p>
 </div>
 </div>
 </div>
@@ -8816,7 +8813,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE:">OBSERWACJE:<a class="anchor-link" href="#OBSERWACJE:">¶</a></h4><p>Znaczna większość biletów była kupiona po najmniejszej cenie. Biletów po cenie większej niż 100 było bardzo mało.</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">The vast majority of tickets were purchased at the lowest price. There were very few tickets priced above 100.</p>
 </div>
 </div>
 </div>
@@ -8843,7 +8840,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE">OBSERWACJE<a class="anchor-link" href="#OBSERWACJE">¶</a></h4><p>Zdecydowanie najwięcej pasażerów płynęło z portu w Southampton.</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">The majority of passengers definitely embarked from the port of Southampton.</p>
 </div>
 </div>
 </div>
@@ -8865,7 +8862,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE">OBSERWACJE<a class="anchor-link" href="#OBSERWACJE">¶</a></h4><p>Było kilkanaście szalup, do których wsiadło między 20-40 osób. Było też kilka szalup, do których wsiadło dosłownie kilku lub kilkunastu pasażerów.</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">There were several lifeboats that had between 20 and 40 people aboard. There were also a few lifeboats that had literally only a few or a dozen passengers.</p>
 </div>
 </div>
 </div>
@@ -8875,7 +8872,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="4.-TRANSFORMACJA-DANYCH:">4. TRANSFORMACJA DANYCH:<a class="anchor-link" href="#4.-TRANSFORMACJA-DANYCH:">¶</a></h2>
+<h2 id="4.-TRANSFORMATION-OF-THE-DATA:">4. TRANSFORMATION OF THE DATA:<a class="anchor-link" href="#4.-TRANSFORMATION-OF-THE-DATA:">¶</a></h2>
 </div>
 </div>
 </div>
@@ -8885,7 +8882,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="LICZBA-BRAKUJ%C4%84CYCH-WARTO%C5%9ACI-W-KA%C5%BBDEJ-KOLUMNIE:">LICZBA BRAKUJĄCYCH WARTOŚCI W KAŻDEJ KOLUMNIE:<a class="anchor-link" href="#LICZBA-BRAKUJ%C4%84CYCH-WARTO%C5%9ACI-W-KA%C5%BBDEJ-KOLUMNIE:">¶</a></h4>
+<h4 id="NUMBER-OF-MISSING-VALUES-IN-EACH-COLUMN:">NUMBER OF MISSING VALUES IN EACH COLUMN:<a class="anchor-link" href="#NUMBER-OF-MISSING-VALUES-IN-EACH-COLUMN:">¶</a></h4>
 </div>
 </div>
 </div>
@@ -8921,7 +8918,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE:">OBSERWACJE:<a class="anchor-link" href="#OBSERWACJE:">¶</a></h4><p>Widzimy, że w kolumnie 'fare' została jeszcze jedna pusta wartość. Możemy zobaczyć ten rekord i spróbowac to naprawić.</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">We see that there is still one missing value in the 'fare' column. We can examine that record and try to fix it.</p>
 </div>
 </div>
 </div>
@@ -8997,7 +8994,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE:">OBSERWACJE:<a class="anchor-link" href="#OBSERWACJE:">¶</a></h4><p>Poniżej, gdzie sprawdzliśmy korelacje między kolumnami, widzimy, że cena biletu jest powiązana z jego klasą. Możemy zatem uzupełnić tę daną średnią ceną biletów 3 klasy.</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">Below, where we examined the correlations between columns, we see that the ticket price is associated with its class. Therefore, we can fill in this missing value with the average ticket price of 3rd class.</p>
 </div>
 </div>
 </div>
@@ -9008,7 +9005,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE:">OBSERWACJE:<a class="anchor-link" href="#OBSERWACJE:">¶</a></h4><p>W niektórych kolumnach możemy zamienić wartości None na łańcuch znaków 'Unknown'.</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">In some columns, we can replace the None values with the string 'Unknown'.</p>
 </div>
 </div>
 </div>
@@ -9044,7 +9041,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE:">OBSERWACJE:<a class="anchor-link" href="#OBSERWACJE:">¶</a></h4><p>W kolumnie 'embarked' dwie brakujące wartości możemy uzupełnić najczęściej występującą wartością 'S'.</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">In the 'embarked' column, we can fill in the two missing values with the most frequently occurring value 'S'.</p>
 </div>
 </div>
 </div>
@@ -9055,7 +9052,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE:">OBSERWACJE:<a class="anchor-link" href="#OBSERWACJE:">¶</a></h4><p>Pozostał jeszcze wiek i stosunkowo dużo brakujących wartości. Możemy uzupełnić je średnią wieku ze wszystkich rekordów.</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">The age column still has a relatively large number of missing values. We can fill them in with the average age from all records.</p>
 </div>
 </div>
 </div>
@@ -9066,7 +9063,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="5.-ANALIZA-RELACJI-MI%C4%98DZY-KOLUMNAMI:">5. ANALIZA RELACJI MIĘDZY KOLUMNAMI:<a class="anchor-link" href="#5.-ANALIZA-RELACJI-MI%C4%98DZY-KOLUMNAMI:">¶</a></h2>
+<h2 id="5.-ANALYSIS-OF-RELATIONS-BETWEEN-COLUMNS:">5. ANALYSIS OF RELATIONS BETWEEN COLUMNS:<a class="anchor-link" href="#5.-ANALYSIS-OF-RELATIONS-BETWEEN-COLUMNS:">¶</a></h2>
 </div>
 </div>
 </div>
@@ -9088,7 +9085,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE:">OBSERWACJE:<a class="anchor-link" href="#OBSERWACJE:">¶</a></h4><p>W większości przypadków nie obserwujemy korelacji pomiędzy poszczególnymi kolumnami, jednak nie wszystkie zostały uwzględnione w macierzy. Jedynie widzimy średnią korelację odwrotną pomiędzy klasą biletu i ceną biletu. Możemy narysować scatter plot tych dwóch wartości, jednak będzie on wyglądał bardzo specyficznie, ponieważ kolumna z klasą biletu ma tylko 3 różne wartości.</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">In most cases, we do not observe correlations between individual columns, although not all were included in the matrix. The only notable observation is a moderate inverse correlation between ticket class and ticket price. We can create a scatter plot of these two values; however, it will look quite specific due to the ticket class column having only 3 distinct values.</p>
 </div>
 </div>
 </div>
@@ -9110,7 +9107,7 @@ dtype: int64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE:">OBSERWACJE:<a class="anchor-link" href="#OBSERWACJE:">¶</a></h4><p>Bardziej zagłębiając się w temat, możemy sprawdzić, czy nie występują jeszcze jakieś zależności. Po pierwsze sprawdzimy, czy płeć miała wpływ na przeżywalność.</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">Delving deeper into the topic, we can check for any additional dependencies. First, we will investigate whether gender had an impact on survival rates.</p>
 </div>
 </div>
 </div>
@@ -9121,8 +9118,8 @@ dtype: int64</pre>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Procent przeżycia mężczyzn: 19.1%
-Procent przeżycia kobiet: 72.75%
+<pre>Survival rate of men: 19.1%
+Survival rate of women: 72.75%
 </pre>
 </div>
 </div>
@@ -9134,7 +9131,7 @@ Procent przeżycia kobiet: 72.75%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="WNIOSKI:">WNIOSKI:<a class="anchor-link" href="#WNIOSKI:">¶</a></h4><p>Widzimy więc, że płeć miała bardzo istotne znaczenie dla przeżywalności pasażera.</p>
+<h4 id="CONCLUSIONS:">CONCLUSIONS:<a class="anchor-link" href="#CONCLUSIONS:">¶</a></h4><p style="text-align: justify;">We can see that gender had a significant impact on passenger survival rates.</p>
 </div>
 </div>
 </div>
@@ -9144,7 +9141,7 @@ Procent przeżycia kobiet: 72.75%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE:">OBSERWACJE:<a class="anchor-link" href="#OBSERWACJE:">¶</a></h4><p>Następnie możemy zobaczyć, czy klasa biletu miała znaczenie dla przeżycia pasażera.</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">Next, we can check whether the ticket class had an impact on passenger survival.</p>
 </div>
 </div>
 </div>
@@ -9230,7 +9227,7 @@ Procent przeżycia kobiet: 72.75%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="WNIOSKI:">WNIOSKI:<a class="anchor-link" href="#WNIOSKI:">¶</a></h4><p>Widzimy więc, że klasa biletu również decydowała o przeżywalności pasażerów.</p>
+<h4 id="CONCLUSIONS:">CONCLUSIONS:<a class="anchor-link" href="#CONCLUSIONS:">¶</a></h4><p style="text-align: justify;">Thus, we can see that ticket class also influenced passenger survival rates.</p>
 </div>
 </div>
 </div>
@@ -9240,7 +9237,7 @@ Procent przeżycia kobiet: 72.75%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE:">OBSERWACJE:<a class="anchor-link" href="#OBSERWACJE:">¶</a></h4><p>Możemy jeszcze sprawdzić, czy wiek miał wpływ na przeżywalność.</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">We can also investigate whether age had an impact on survival rates.</p>
 </div>
 </div>
 </div>
@@ -9267,7 +9264,7 @@ Procent przeżycia kobiet: 72.75%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="WNIOSKI:">WNIOSKI:<a class="anchor-link" href="#WNIOSKI:">¶</a></h4><p>Widzimy, że boxploty są prawie identyczne dla ocalałych i dla zmarłych. Na tej podstawie możemy stwierdzić, że wiek nie miał większego znaczenia dla przeżywalności.</p>
+<h4 id="CONCLUSIONS:">CONCLUSIONS:<a class="anchor-link" href="#CONCLUSIONS:">¶</a></h4><p style="text-align: justify;">We see that the boxplots are nearly identical for survivors and those who did not survive. Based on this, we can conclude that age did not have a significant impact on survival rates.</p>
 </div>
 </div>
 </div>
@@ -9277,7 +9274,7 @@ Procent przeżycia kobiet: 72.75%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="6.-WARTO%C5%9ACI-ODSTAJ%C4%84CE:">6. WARTOŚCI ODSTAJĄCE:<a class="anchor-link" href="#6.-WARTO%C5%9ACI-ODSTAJ%C4%84CE:">¶</a></h2>
+<h2 id="6.-OUTLIERS:">6. OUTLIERS:<a class="anchor-link" href="#6.-OUTLIERS:">¶</a></h2>
 </div>
 </div>
 </div>
@@ -9304,7 +9301,7 @@ Procent przeżycia kobiet: 72.75%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE:">OBSERWACJE:<a class="anchor-link" href="#OBSERWACJE:">¶</a></h4><p>Możemy narysować boxploty dla kolumny wiek. Widzimy, że połowa osób ma mniej niż 30 lat. Jeśli chodzi o wartości odstające to jest ich kilka powyżej 66 lat.</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">We can create boxplots for the age column. We observe that half of the individuals are under 30 years old. Regarding outliers, there are a few individuals above the age of 66.</p>
 </div>
 </div>
 </div>
@@ -9331,7 +9328,7 @@ Procent przeżycia kobiet: 72.75%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="OBSERWACJE:">OBSERWACJE:<a class="anchor-link" href="#OBSERWACJE:">¶</a></h4><p>Widzimy, że jest dużo wartości odstających, jeśli chodzi o cenę biletu i są one bardzo "rozstrzelone".</p>
+<h4 id="OBSERVATIONS:">OBSERVATIONS:<a class="anchor-link" href="#OBSERVATIONS:">¶</a></h4><p style="text-align: justify;">We see that there are many outliers in terms of ticket prices, and they are quite widely dispersed.</p>
 </div>
 </div>
 </div>
@@ -9341,8 +9338,8 @@ Procent przeżycia kobiet: 72.75%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="WNIOSKI:">WNIOSKI:<a class="anchor-link" href="#WNIOSKI:">¶</a></h2><p>Dane, które otrzymaliśmy nie są kompletne, jeśli chodzi o wszystkich pasażerów katastrofy. Z tych które posiadamy, możemy wysnuć za to pewne wnioski. Większość osób nie przeżyło katastrofy. W większości były to osoby młode, mężczyźni, poniżej 30 roku życia. Również w większości pasażerowie mieli bilety klasy trzeciej, zdecydowanie najtańszej. Wsiedli na Titanica w trzech różnych portach, w tym zdecydowanie najwięcej w porcie Southampton. Większość z nich płynęła bez rodzin.</p>
-<p>Jeśli chodzi o samą katastrofę to ponad połowa pasażerów zginęła. Odnaleziono jedynie co 6 ciało. Natomiast szalup ratunkowych było tylko kilkanaście, z czego większość zabrała pomiędzy 20, a 40 pasażerów, co było zdecydowanie za mało żeby uratować większą część pasażerów.</p>
+<h2 id="CONCLUSIONS:">CONCLUSIONS:<a class="anchor-link" href="#CONCLUSIONS:">¶</a></h2><p style="text-align: justify;">The data we received is not complete regarding all passengers of the disaster. However, from the available information, we can draw certain conclusions. Most individuals did not survive the disaster, with the majority being young men under 30 years old. Additionally, most passengers had third-class tickets, which were the cheapest. They boarded the Titanic at three different ports, with the majority coming from Southampton. Most of them were traveling without family.</p>
+<p style="text-align: justify;">Regarding the disaster itself, over half of the passengers perished. Only one in six bodies was recovered. Furthermore, there were only a few lifeboats, most of which carried between 20 and 40 passengers, which was definitely insufficient to save a larger portion of the passengers.</p>
 </div>
 </div>
 </div>
@@ -9352,7 +9349,7 @@ Procent przeżycia kobiet: 72.75%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="TWORZENIE-MODELU-PREDYKCYJNEGO-PRZE%C5%BBYWALNO%C5%9ACI-PASA%C5%BBER%C3%93W">TWORZENIE MODELU PREDYKCYJNEGO PRZEŻYWALNOŚCI PASAŻERÓW<a class="anchor-link" href="#TWORZENIE-MODELU-PREDYKCYJNEGO-PRZE%C5%BBYWALNO%C5%9ACI-PASA%C5%BBER%C3%93W">¶</a></h2>
+<h2 id="CREATING-A-PREDICTIVE-MODEL-FOR-PASSENGER-SURVIVAL">CREATING A PREDICTIVE MODEL FOR PASSENGER SURVIVAL<a class="anchor-link" href="#CREATING-A-PREDICTIVE-MODEL-FOR-PASSENGER-SURVIVAL">¶</a></h2>
 </div>
 </div>
 </div>
@@ -9363,7 +9360,7 @@ Procent przeżycia kobiet: 72.75%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="U%C5%BCywaj%C4%85c-biblioteki-pycaret-tworz%C4%99-%C5%9Brodowisko-do-trenowania-modelu,-pomijaj%C4%85c-kolumny-%22name%22-i-%22ticket%22,-kt%C3%B3re-wed%C5%82ug-mnie-nie-b%C4%99d%C4%85-mia%C5%82y-wp%C5%82ywu-na-jego-efektywno%C5%9B%C4%87:">Używając biblioteki pycaret tworzę środowisko do trenowania modelu, pomijając kolumny "name" i "ticket", które według mnie nie będą miały wpływu na jego efektywność:<a class="anchor-link" href="#U%C5%BCywaj%C4%85c-biblioteki-pycaret-tworz%C4%99-%C5%9Brodowisko-do-trenowania-modelu,-pomijaj%C4%85c-kolumny-%22name%22-i-%22ticket%22,-kt%C3%B3re-wed%C5%82ug-mnie-nie-b%C4%99d%C4%85-mia%C5%82y-wp%C5%82ywu-na-jego-efektywno%C5%9B%C4%87:">¶</a></h4>
+<p style="text-align: justify;">Using the PyCaret library, I create an environment for training the model, excluding the "name" and "ticket" columns, which I believe will not impact its effectiveness:</p>
 </div>
 </div>
 </div>
@@ -9375,133 +9372,133 @@ Procent przeżycia kobiet: 72.75%
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
 <style type="text/css">
-#T_8108a_row10_col1 {
+#T_662e5_row10_col1 {
   background-color: lightgreen;
 }
 </style>
-<table id="T_8108a">
+<table id="T_662e5">
 <thead>
 <tr>
 <th class="blank level0"> </th>
-<th class="col_heading level0 col0" id="T_8108a_level0_col0">Description</th>
-<th class="col_heading level0 col1" id="T_8108a_level0_col1">Value</th>
+<th class="col_heading level0 col0" id="T_662e5_level0_col0">Description</th>
+<th class="col_heading level0 col1" id="T_662e5_level0_col1">Value</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<th class="row_heading level0 row0" id="T_8108a_level0_row0">0</th>
-<td class="data row0 col0" id="T_8108a_row0_col0">Session id</td>
-<td class="data row0 col1" id="T_8108a_row0_col1">123</td>
+<th class="row_heading level0 row0" id="T_662e5_level0_row0">0</th>
+<td class="data row0 col0" id="T_662e5_row0_col0">Session id</td>
+<td class="data row0 col1" id="T_662e5_row0_col1">123</td>
 </tr>
 <tr>
-<th class="row_heading level0 row1" id="T_8108a_level0_row1">1</th>
-<td class="data row1 col0" id="T_8108a_row1_col0">Target</td>
-<td class="data row1 col1" id="T_8108a_row1_col1">survived</td>
+<th class="row_heading level0 row1" id="T_662e5_level0_row1">1</th>
+<td class="data row1 col0" id="T_662e5_row1_col0">Target</td>
+<td class="data row1 col1" id="T_662e5_row1_col1">survived</td>
 </tr>
 <tr>
-<th class="row_heading level0 row2" id="T_8108a_level0_row2">2</th>
-<td class="data row2 col0" id="T_8108a_row2_col0">Target type</td>
-<td class="data row2 col1" id="T_8108a_row2_col1">Binary</td>
+<th class="row_heading level0 row2" id="T_662e5_level0_row2">2</th>
+<td class="data row2 col0" id="T_662e5_row2_col0">Target type</td>
+<td class="data row2 col1" id="T_662e5_row2_col1">Binary</td>
 </tr>
 <tr>
-<th class="row_heading level0 row3" id="T_8108a_level0_row3">3</th>
-<td class="data row3 col0" id="T_8108a_row3_col0">Original data shape</td>
-<td class="data row3 col1" id="T_8108a_row3_col1">(1309, 14)</td>
+<th class="row_heading level0 row3" id="T_662e5_level0_row3">3</th>
+<td class="data row3 col0" id="T_662e5_row3_col0">Original data shape</td>
+<td class="data row3 col1" id="T_662e5_row3_col1">(1309, 14)</td>
 </tr>
 <tr>
-<th class="row_heading level0 row4" id="T_8108a_level0_row4">4</th>
-<td class="data row4 col0" id="T_8108a_row4_col0">Transformed data shape</td>
-<td class="data row4 col1" id="T_8108a_row4_col1">(1309, 14)</td>
+<th class="row_heading level0 row4" id="T_662e5_level0_row4">4</th>
+<td class="data row4 col0" id="T_662e5_row4_col0">Transformed data shape</td>
+<td class="data row4 col1" id="T_662e5_row4_col1">(1309, 14)</td>
 </tr>
 <tr>
-<th class="row_heading level0 row5" id="T_8108a_level0_row5">5</th>
-<td class="data row5 col0" id="T_8108a_row5_col0">Transformed train set shape</td>
-<td class="data row5 col1" id="T_8108a_row5_col1">(916, 14)</td>
+<th class="row_heading level0 row5" id="T_662e5_level0_row5">5</th>
+<td class="data row5 col0" id="T_662e5_row5_col0">Transformed train set shape</td>
+<td class="data row5 col1" id="T_662e5_row5_col1">(916, 14)</td>
 </tr>
 <tr>
-<th class="row_heading level0 row6" id="T_8108a_level0_row6">6</th>
-<td class="data row6 col0" id="T_8108a_row6_col0">Transformed test set shape</td>
-<td class="data row6 col1" id="T_8108a_row6_col1">(393, 14)</td>
+<th class="row_heading level0 row6" id="T_662e5_level0_row6">6</th>
+<td class="data row6 col0" id="T_662e5_row6_col0">Transformed test set shape</td>
+<td class="data row6 col1" id="T_662e5_row6_col1">(393, 14)</td>
 </tr>
 <tr>
-<th class="row_heading level0 row7" id="T_8108a_level0_row7">7</th>
-<td class="data row7 col0" id="T_8108a_row7_col0">Ignore features</td>
-<td class="data row7 col1" id="T_8108a_row7_col1">2</td>
+<th class="row_heading level0 row7" id="T_662e5_level0_row7">7</th>
+<td class="data row7 col0" id="T_662e5_row7_col0">Ignore features</td>
+<td class="data row7 col1" id="T_662e5_row7_col1">2</td>
 </tr>
 <tr>
-<th class="row_heading level0 row8" id="T_8108a_level0_row8">8</th>
-<td class="data row8 col0" id="T_8108a_row8_col0">Numeric features</td>
-<td class="data row8 col1" id="T_8108a_row8_col1">5</td>
+<th class="row_heading level0 row8" id="T_662e5_level0_row8">8</th>
+<td class="data row8 col0" id="T_662e5_row8_col0">Numeric features</td>
+<td class="data row8 col1" id="T_662e5_row8_col1">5</td>
 </tr>
 <tr>
-<th class="row_heading level0 row9" id="T_8108a_level0_row9">9</th>
-<td class="data row9 col0" id="T_8108a_row9_col0">Categorical features</td>
-<td class="data row9 col1" id="T_8108a_row9_col1">6</td>
+<th class="row_heading level0 row9" id="T_662e5_level0_row9">9</th>
+<td class="data row9 col0" id="T_662e5_row9_col0">Categorical features</td>
+<td class="data row9 col1" id="T_662e5_row9_col1">6</td>
 </tr>
 <tr>
-<th class="row_heading level0 row10" id="T_8108a_level0_row10">10</th>
-<td class="data row10 col0" id="T_8108a_row10_col0">Preprocess</td>
-<td class="data row10 col1" id="T_8108a_row10_col1">True</td>
+<th class="row_heading level0 row10" id="T_662e5_level0_row10">10</th>
+<td class="data row10 col0" id="T_662e5_row10_col0">Preprocess</td>
+<td class="data row10 col1" id="T_662e5_row10_col1">True</td>
 </tr>
 <tr>
-<th class="row_heading level0 row11" id="T_8108a_level0_row11">11</th>
-<td class="data row11 col0" id="T_8108a_row11_col0">Imputation type</td>
-<td class="data row11 col1" id="T_8108a_row11_col1">simple</td>
+<th class="row_heading level0 row11" id="T_662e5_level0_row11">11</th>
+<td class="data row11 col0" id="T_662e5_row11_col0">Imputation type</td>
+<td class="data row11 col1" id="T_662e5_row11_col1">simple</td>
 </tr>
 <tr>
-<th class="row_heading level0 row12" id="T_8108a_level0_row12">12</th>
-<td class="data row12 col0" id="T_8108a_row12_col0">Numeric imputation</td>
-<td class="data row12 col1" id="T_8108a_row12_col1">mean</td>
+<th class="row_heading level0 row12" id="T_662e5_level0_row12">12</th>
+<td class="data row12 col0" id="T_662e5_row12_col0">Numeric imputation</td>
+<td class="data row12 col1" id="T_662e5_row12_col1">mean</td>
 </tr>
 <tr>
-<th class="row_heading level0 row13" id="T_8108a_level0_row13">13</th>
-<td class="data row13 col0" id="T_8108a_row13_col0">Categorical imputation</td>
-<td class="data row13 col1" id="T_8108a_row13_col1">mode</td>
+<th class="row_heading level0 row13" id="T_662e5_level0_row13">13</th>
+<td class="data row13 col0" id="T_662e5_row13_col0">Categorical imputation</td>
+<td class="data row13 col1" id="T_662e5_row13_col1">mode</td>
 </tr>
 <tr>
-<th class="row_heading level0 row14" id="T_8108a_level0_row14">14</th>
-<td class="data row14 col0" id="T_8108a_row14_col0">Maximum one-hot encoding</td>
-<td class="data row14 col1" id="T_8108a_row14_col1">25</td>
+<th class="row_heading level0 row14" id="T_662e5_level0_row14">14</th>
+<td class="data row14 col0" id="T_662e5_row14_col0">Maximum one-hot encoding</td>
+<td class="data row14 col1" id="T_662e5_row14_col1">25</td>
 </tr>
 <tr>
-<th class="row_heading level0 row15" id="T_8108a_level0_row15">15</th>
-<td class="data row15 col0" id="T_8108a_row15_col0">Encoding method</td>
-<td class="data row15 col1" id="T_8108a_row15_col1">None</td>
+<th class="row_heading level0 row15" id="T_662e5_level0_row15">15</th>
+<td class="data row15 col0" id="T_662e5_row15_col0">Encoding method</td>
+<td class="data row15 col1" id="T_662e5_row15_col1">None</td>
 </tr>
 <tr>
-<th class="row_heading level0 row16" id="T_8108a_level0_row16">16</th>
-<td class="data row16 col0" id="T_8108a_row16_col0">Fold Generator</td>
-<td class="data row16 col1" id="T_8108a_row16_col1">StratifiedKFold</td>
+<th class="row_heading level0 row16" id="T_662e5_level0_row16">16</th>
+<td class="data row16 col0" id="T_662e5_row16_col0">Fold Generator</td>
+<td class="data row16 col1" id="T_662e5_row16_col1">StratifiedKFold</td>
 </tr>
 <tr>
-<th class="row_heading level0 row17" id="T_8108a_level0_row17">17</th>
-<td class="data row17 col0" id="T_8108a_row17_col0">Fold Number</td>
-<td class="data row17 col1" id="T_8108a_row17_col1">10</td>
+<th class="row_heading level0 row17" id="T_662e5_level0_row17">17</th>
+<td class="data row17 col0" id="T_662e5_row17_col0">Fold Number</td>
+<td class="data row17 col1" id="T_662e5_row17_col1">10</td>
 </tr>
 <tr>
-<th class="row_heading level0 row18" id="T_8108a_level0_row18">18</th>
-<td class="data row18 col0" id="T_8108a_row18_col0">CPU Jobs</td>
-<td class="data row18 col1" id="T_8108a_row18_col1">-1</td>
+<th class="row_heading level0 row18" id="T_662e5_level0_row18">18</th>
+<td class="data row18 col0" id="T_662e5_row18_col0">CPU Jobs</td>
+<td class="data row18 col1" id="T_662e5_row18_col1">-1</td>
 </tr>
 <tr>
-<th class="row_heading level0 row19" id="T_8108a_level0_row19">19</th>
-<td class="data row19 col0" id="T_8108a_row19_col0">Use GPU</td>
-<td class="data row19 col1" id="T_8108a_row19_col1">False</td>
+<th class="row_heading level0 row19" id="T_662e5_level0_row19">19</th>
+<td class="data row19 col0" id="T_662e5_row19_col0">Use GPU</td>
+<td class="data row19 col1" id="T_662e5_row19_col1">False</td>
 </tr>
 <tr>
-<th class="row_heading level0 row20" id="T_8108a_level0_row20">20</th>
-<td class="data row20 col0" id="T_8108a_row20_col0">Log Experiment</td>
-<td class="data row20 col1" id="T_8108a_row20_col1">False</td>
+<th class="row_heading level0 row20" id="T_662e5_level0_row20">20</th>
+<td class="data row20 col0" id="T_662e5_row20_col0">Log Experiment</td>
+<td class="data row20 col1" id="T_662e5_row20_col1">False</td>
 </tr>
 <tr>
-<th class="row_heading level0 row21" id="T_8108a_level0_row21">21</th>
-<td class="data row21 col0" id="T_8108a_row21_col0">Experiment Name</td>
-<td class="data row21 col1" id="T_8108a_row21_col1">clf-default-name</td>
+<th class="row_heading level0 row21" id="T_662e5_level0_row21">21</th>
+<td class="data row21 col0" id="T_662e5_row21_col0">Experiment Name</td>
+<td class="data row21 col1" id="T_662e5_row21_col1">clf-default-name</td>
 </tr>
 <tr>
-<th class="row_heading level0 row22" id="T_8108a_level0_row22">22</th>
-<td class="data row22 col0" id="T_8108a_row22_col0">USI</td>
-<td class="data row22 col1" id="T_8108a_row22_col1">2f21</td>
+<th class="row_heading level0 row22" id="T_662e5_level0_row22">22</th>
+<td class="data row22 col0" id="T_662e5_row22_col0">USI</td>
+<td class="data row22 col1" id="T_662e5_row22_col1">a1b9</td>
 </tr>
 </tbody>
 </table>
@@ -9509,7 +9506,7 @@ Procent przeżycia kobiet: 72.75%
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>&lt;pycaret.classification.oop.ClassificationExperiment at 0x2b44be4ac90&gt;</pre>
+<pre>&lt;pycaret.classification.oop.ClassificationExperiment at 0x15359691290&gt;</pre>
 </div>
 </div>
 </div>
@@ -9520,7 +9517,7 @@ Procent przeżycia kobiet: 72.75%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Nast%C4%99pnie-por%C3%B3wnuj%C4%99-wyniki-modeli-ze-wzdgl%C4%99du-na-%22Accuracy%22,-gdy%C5%BC-nie-zale%C5%BCy-mi-szczeg%C3%B3lnie-na-ograniczenie-kt%C3%B3rej%C5%9B-z-grup-false-positives-lub-false-negatives:">Następnie porównuję wyniki modeli ze wzdględu na "Accuracy", gdyż nie zależy mi szczególnie na ograniczenie którejś z grup false positives lub false negatives:<a class="anchor-link" href="#Nast%C4%99pnie-por%C3%B3wnuj%C4%99-wyniki-modeli-ze-wzdgl%C4%99du-na-%22Accuracy%22,-gdy%C5%BC-nie-zale%C5%BCy-mi-szczeg%C3%B3lnie-na-ograniczenie-kt%C3%B3rej%C5%9B-z-grup-false-positives-lub-false-negatives:">¶</a></h4>
+<p style="text-align: justify;">Next, I compare the performance of the models based on "Accuracy", as I am not particularly concerned with minimizing either group of false positives or false negatives:</p>
 </div>
 </div>
 </div>
@@ -9536,221 +9533,221 @@ Procent przeżycia kobiet: 72.75%
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
 <style type="text/css">
-#T_68f00 th {
+#T_5cdbf th {
   text-align: left;
 }
-#T_68f00_row0_col0, #T_68f00_row0_col2, #T_68f00_row0_col3, #T_68f00_row1_col0, #T_68f00_row1_col2, #T_68f00_row1_col3, #T_68f00_row2_col0, #T_68f00_row2_col1, #T_68f00_row2_col3, #T_68f00_row2_col4, #T_68f00_row2_col5, #T_68f00_row2_col6, #T_68f00_row2_col7, #T_68f00_row3_col0, #T_68f00_row3_col1, #T_68f00_row3_col2, #T_68f00_row3_col3, #T_68f00_row3_col4, #T_68f00_row3_col5, #T_68f00_row3_col6, #T_68f00_row3_col7, #T_68f00_row4_col0, #T_68f00_row4_col1, #T_68f00_row4_col2, #T_68f00_row4_col3, #T_68f00_row4_col4, #T_68f00_row4_col5, #T_68f00_row4_col6, #T_68f00_row4_col7, #T_68f00_row5_col0, #T_68f00_row5_col1, #T_68f00_row5_col2, #T_68f00_row5_col3, #T_68f00_row5_col4, #T_68f00_row5_col5, #T_68f00_row5_col6, #T_68f00_row5_col7, #T_68f00_row6_col0, #T_68f00_row6_col1, #T_68f00_row6_col2, #T_68f00_row6_col3, #T_68f00_row6_col4, #T_68f00_row6_col5, #T_68f00_row6_col6, #T_68f00_row6_col7, #T_68f00_row7_col0, #T_68f00_row7_col1, #T_68f00_row7_col2, #T_68f00_row7_col3, #T_68f00_row7_col4, #T_68f00_row7_col5, #T_68f00_row7_col6, #T_68f00_row7_col7, #T_68f00_row8_col0, #T_68f00_row8_col1, #T_68f00_row8_col2, #T_68f00_row8_col3, #T_68f00_row8_col4, #T_68f00_row8_col5, #T_68f00_row8_col6, #T_68f00_row8_col7, #T_68f00_row9_col0, #T_68f00_row9_col1, #T_68f00_row9_col2, #T_68f00_row9_col3, #T_68f00_row9_col4, #T_68f00_row9_col5, #T_68f00_row9_col6, #T_68f00_row9_col7, #T_68f00_row10_col0, #T_68f00_row10_col1, #T_68f00_row10_col2, #T_68f00_row10_col3, #T_68f00_row10_col4, #T_68f00_row10_col5, #T_68f00_row10_col6, #T_68f00_row10_col7, #T_68f00_row11_col0, #T_68f00_row11_col1, #T_68f00_row11_col2, #T_68f00_row11_col3, #T_68f00_row11_col4, #T_68f00_row11_col5, #T_68f00_row11_col6, #T_68f00_row11_col7, #T_68f00_row12_col0, #T_68f00_row12_col1, #T_68f00_row12_col2, #T_68f00_row12_col3, #T_68f00_row12_col4, #T_68f00_row12_col5, #T_68f00_row12_col6, #T_68f00_row12_col7, #T_68f00_row13_col0, #T_68f00_row13_col1, #T_68f00_row13_col2, #T_68f00_row13_col4, #T_68f00_row13_col5, #T_68f00_row13_col6, #T_68f00_row13_col7 {
+#T_5cdbf_row0_col0, #T_5cdbf_row0_col2, #T_5cdbf_row0_col3, #T_5cdbf_row1_col0, #T_5cdbf_row1_col2, #T_5cdbf_row1_col3, #T_5cdbf_row2_col0, #T_5cdbf_row2_col1, #T_5cdbf_row2_col3, #T_5cdbf_row2_col4, #T_5cdbf_row2_col5, #T_5cdbf_row2_col6, #T_5cdbf_row2_col7, #T_5cdbf_row3_col0, #T_5cdbf_row3_col1, #T_5cdbf_row3_col2, #T_5cdbf_row3_col3, #T_5cdbf_row3_col4, #T_5cdbf_row3_col5, #T_5cdbf_row3_col6, #T_5cdbf_row3_col7, #T_5cdbf_row4_col0, #T_5cdbf_row4_col1, #T_5cdbf_row4_col2, #T_5cdbf_row4_col3, #T_5cdbf_row4_col4, #T_5cdbf_row4_col5, #T_5cdbf_row4_col6, #T_5cdbf_row4_col7, #T_5cdbf_row5_col0, #T_5cdbf_row5_col1, #T_5cdbf_row5_col2, #T_5cdbf_row5_col3, #T_5cdbf_row5_col4, #T_5cdbf_row5_col5, #T_5cdbf_row5_col6, #T_5cdbf_row5_col7, #T_5cdbf_row6_col0, #T_5cdbf_row6_col1, #T_5cdbf_row6_col2, #T_5cdbf_row6_col3, #T_5cdbf_row6_col4, #T_5cdbf_row6_col5, #T_5cdbf_row6_col6, #T_5cdbf_row6_col7, #T_5cdbf_row7_col0, #T_5cdbf_row7_col1, #T_5cdbf_row7_col2, #T_5cdbf_row7_col3, #T_5cdbf_row7_col4, #T_5cdbf_row7_col5, #T_5cdbf_row7_col6, #T_5cdbf_row7_col7, #T_5cdbf_row8_col0, #T_5cdbf_row8_col1, #T_5cdbf_row8_col2, #T_5cdbf_row8_col3, #T_5cdbf_row8_col4, #T_5cdbf_row8_col5, #T_5cdbf_row8_col6, #T_5cdbf_row8_col7, #T_5cdbf_row9_col0, #T_5cdbf_row9_col1, #T_5cdbf_row9_col2, #T_5cdbf_row9_col3, #T_5cdbf_row9_col4, #T_5cdbf_row9_col5, #T_5cdbf_row9_col6, #T_5cdbf_row9_col7, #T_5cdbf_row10_col0, #T_5cdbf_row10_col1, #T_5cdbf_row10_col2, #T_5cdbf_row10_col3, #T_5cdbf_row10_col4, #T_5cdbf_row10_col5, #T_5cdbf_row10_col6, #T_5cdbf_row10_col7, #T_5cdbf_row11_col0, #T_5cdbf_row11_col1, #T_5cdbf_row11_col2, #T_5cdbf_row11_col3, #T_5cdbf_row11_col4, #T_5cdbf_row11_col5, #T_5cdbf_row11_col6, #T_5cdbf_row11_col7, #T_5cdbf_row12_col0, #T_5cdbf_row12_col1, #T_5cdbf_row12_col2, #T_5cdbf_row12_col3, #T_5cdbf_row12_col4, #T_5cdbf_row12_col5, #T_5cdbf_row12_col6, #T_5cdbf_row12_col7, #T_5cdbf_row13_col0, #T_5cdbf_row13_col1, #T_5cdbf_row13_col2, #T_5cdbf_row13_col4, #T_5cdbf_row13_col5, #T_5cdbf_row13_col6, #T_5cdbf_row13_col7 {
   text-align: left;
 }
-#T_68f00_row0_col1, #T_68f00_row0_col4, #T_68f00_row0_col5, #T_68f00_row0_col6, #T_68f00_row0_col7, #T_68f00_row1_col1, #T_68f00_row1_col4, #T_68f00_row1_col5, #T_68f00_row1_col6, #T_68f00_row1_col7, #T_68f00_row2_col2, #T_68f00_row13_col3 {
+#T_5cdbf_row0_col1, #T_5cdbf_row0_col4, #T_5cdbf_row0_col5, #T_5cdbf_row0_col6, #T_5cdbf_row0_col7, #T_5cdbf_row1_col1, #T_5cdbf_row1_col4, #T_5cdbf_row1_col5, #T_5cdbf_row1_col6, #T_5cdbf_row1_col7, #T_5cdbf_row2_col2, #T_5cdbf_row13_col3 {
   text-align: left;
   background-color: yellow;
 }
-#T_68f00_row0_col8, #T_68f00_row1_col8, #T_68f00_row2_col8, #T_68f00_row3_col8, #T_68f00_row4_col8, #T_68f00_row5_col8, #T_68f00_row6_col8, #T_68f00_row7_col8, #T_68f00_row8_col8, #T_68f00_row9_col8, #T_68f00_row10_col8, #T_68f00_row11_col8, #T_68f00_row13_col8 {
+#T_5cdbf_row0_col8, #T_5cdbf_row1_col8, #T_5cdbf_row2_col8, #T_5cdbf_row3_col8, #T_5cdbf_row4_col8, #T_5cdbf_row5_col8, #T_5cdbf_row6_col8, #T_5cdbf_row7_col8, #T_5cdbf_row8_col8, #T_5cdbf_row10_col8, #T_5cdbf_row11_col8, #T_5cdbf_row13_col8 {
   text-align: left;
   background-color: lightgrey;
 }
-#T_68f00_row12_col8 {
+#T_5cdbf_row9_col8, #T_5cdbf_row12_col8 {
   text-align: left;
   background-color: yellow;
   background-color: lightgrey;
 }
 </style>
-<table id="T_68f00">
+<table id="T_5cdbf">
 <thead>
 <tr>
 <th class="blank level0"> </th>
-<th class="col_heading level0 col0" id="T_68f00_level0_col0">Model</th>
-<th class="col_heading level0 col1" id="T_68f00_level0_col1">Accuracy</th>
-<th class="col_heading level0 col2" id="T_68f00_level0_col2">AUC</th>
-<th class="col_heading level0 col3" id="T_68f00_level0_col3">Recall</th>
-<th class="col_heading level0 col4" id="T_68f00_level0_col4">Prec.</th>
-<th class="col_heading level0 col5" id="T_68f00_level0_col5">F1</th>
-<th class="col_heading level0 col6" id="T_68f00_level0_col6">Kappa</th>
-<th class="col_heading level0 col7" id="T_68f00_level0_col7">MCC</th>
-<th class="col_heading level0 col8" id="T_68f00_level0_col8">TT (Sec)</th>
+<th class="col_heading level0 col0" id="T_5cdbf_level0_col0">Model</th>
+<th class="col_heading level0 col1" id="T_5cdbf_level0_col1">Accuracy</th>
+<th class="col_heading level0 col2" id="T_5cdbf_level0_col2">AUC</th>
+<th class="col_heading level0 col3" id="T_5cdbf_level0_col3">Recall</th>
+<th class="col_heading level0 col4" id="T_5cdbf_level0_col4">Prec.</th>
+<th class="col_heading level0 col5" id="T_5cdbf_level0_col5">F1</th>
+<th class="col_heading level0 col6" id="T_5cdbf_level0_col6">Kappa</th>
+<th class="col_heading level0 col7" id="T_5cdbf_level0_col7">MCC</th>
+<th class="col_heading level0 col8" id="T_5cdbf_level0_col8">TT (Sec)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<th class="row_heading level0 row0" id="T_68f00_level0_row0">ridge</th>
-<td class="data row0 col0" id="T_68f00_row0_col0">Ridge Classifier</td>
-<td class="data row0 col1" id="T_68f00_row0_col1">0.9760</td>
-<td class="data row0 col2" id="T_68f00_row0_col2">0.9936</td>
-<td class="data row0 col3" id="T_68f00_row0_col3">0.9486</td>
-<td class="data row0 col4" id="T_68f00_row0_col4">0.9885</td>
-<td class="data row0 col5" id="T_68f00_row0_col5">0.9678</td>
-<td class="data row0 col6" id="T_68f00_row0_col6">0.9487</td>
-<td class="data row0 col7" id="T_68f00_row0_col7">0.9496</td>
-<td class="data row0 col8" id="T_68f00_row0_col8">0.0780</td>
+<th class="row_heading level0 row0" id="T_5cdbf_level0_row0">ridge</th>
+<td class="data row0 col0" id="T_5cdbf_row0_col0">Ridge Classifier</td>
+<td class="data row0 col1" id="T_5cdbf_row0_col1">0.9760</td>
+<td class="data row0 col2" id="T_5cdbf_row0_col2">0.9936</td>
+<td class="data row0 col3" id="T_5cdbf_row0_col3">0.9486</td>
+<td class="data row0 col4" id="T_5cdbf_row0_col4">0.9885</td>
+<td class="data row0 col5" id="T_5cdbf_row0_col5">0.9678</td>
+<td class="data row0 col6" id="T_5cdbf_row0_col6">0.9487</td>
+<td class="data row0 col7" id="T_5cdbf_row0_col7">0.9496</td>
+<td class="data row0 col8" id="T_5cdbf_row0_col8">0.0950</td>
 </tr>
 <tr>
-<th class="row_heading level0 row1" id="T_68f00_level0_row1">lda</th>
-<td class="data row1 col0" id="T_68f00_row1_col0">Linear Discriminant Analysis</td>
-<td class="data row1 col1" id="T_68f00_row1_col1">0.9760</td>
-<td class="data row1 col2" id="T_68f00_row1_col2">0.9935</td>
-<td class="data row1 col3" id="T_68f00_row1_col3">0.9486</td>
-<td class="data row1 col4" id="T_68f00_row1_col4">0.9885</td>
-<td class="data row1 col5" id="T_68f00_row1_col5">0.9678</td>
-<td class="data row1 col6" id="T_68f00_row1_col6">0.9487</td>
-<td class="data row1 col7" id="T_68f00_row1_col7">0.9496</td>
-<td class="data row1 col8" id="T_68f00_row1_col8">0.0710</td>
+<th class="row_heading level0 row1" id="T_5cdbf_level0_row1">lda</th>
+<td class="data row1 col0" id="T_5cdbf_row1_col0">Linear Discriminant Analysis</td>
+<td class="data row1 col1" id="T_5cdbf_row1_col1">0.9760</td>
+<td class="data row1 col2" id="T_5cdbf_row1_col2">0.9935</td>
+<td class="data row1 col3" id="T_5cdbf_row1_col3">0.9486</td>
+<td class="data row1 col4" id="T_5cdbf_row1_col4">0.9885</td>
+<td class="data row1 col5" id="T_5cdbf_row1_col5">0.9678</td>
+<td class="data row1 col6" id="T_5cdbf_row1_col6">0.9487</td>
+<td class="data row1 col7" id="T_5cdbf_row1_col7">0.9496</td>
+<td class="data row1 col8" id="T_5cdbf_row1_col8">0.0820</td>
 </tr>
 <tr>
-<th class="row_heading level0 row2" id="T_68f00_level0_row2">lr</th>
-<td class="data row2 col0" id="T_68f00_row2_col0">Logistic Regression</td>
-<td class="data row2 col1" id="T_68f00_row2_col1">0.9705</td>
-<td class="data row2 col2" id="T_68f00_row2_col2">0.9941</td>
-<td class="data row2 col3" id="T_68f00_row2_col3">0.9343</td>
-<td class="data row2 col4" id="T_68f00_row2_col4">0.9884</td>
-<td class="data row2 col5" id="T_68f00_row2_col5">0.9598</td>
-<td class="data row2 col6" id="T_68f00_row2_col6">0.9367</td>
-<td class="data row2 col7" id="T_68f00_row2_col7">0.9384</td>
-<td class="data row2 col8" id="T_68f00_row2_col8">1.1450</td>
+<th class="row_heading level0 row2" id="T_5cdbf_level0_row2">lr</th>
+<td class="data row2 col0" id="T_5cdbf_row2_col0">Logistic Regression</td>
+<td class="data row2 col1" id="T_5cdbf_row2_col1">0.9705</td>
+<td class="data row2 col2" id="T_5cdbf_row2_col2">0.9941</td>
+<td class="data row2 col3" id="T_5cdbf_row2_col3">0.9343</td>
+<td class="data row2 col4" id="T_5cdbf_row2_col4">0.9884</td>
+<td class="data row2 col5" id="T_5cdbf_row2_col5">0.9598</td>
+<td class="data row2 col6" id="T_5cdbf_row2_col6">0.9367</td>
+<td class="data row2 col7" id="T_5cdbf_row2_col7">0.9384</td>
+<td class="data row2 col8" id="T_5cdbf_row2_col8">1.3590</td>
 </tr>
 <tr>
-<th class="row_heading level0 row3" id="T_68f00_level0_row3">gbc</th>
-<td class="data row3 col0" id="T_68f00_row3_col0">Gradient Boosting Classifier</td>
-<td class="data row3 col1" id="T_68f00_row3_col1">0.9705</td>
-<td class="data row3 col2" id="T_68f00_row3_col2">0.9910</td>
-<td class="data row3 col3" id="T_68f00_row3_col3">0.9486</td>
-<td class="data row3 col4" id="T_68f00_row3_col4">0.9742</td>
-<td class="data row3 col5" id="T_68f00_row3_col5">0.9608</td>
-<td class="data row3 col6" id="T_68f00_row3_col6">0.9372</td>
-<td class="data row3 col7" id="T_68f00_row3_col7">0.9379</td>
-<td class="data row3 col8" id="T_68f00_row3_col8">0.1450</td>
+<th class="row_heading level0 row3" id="T_5cdbf_level0_row3">gbc</th>
+<td class="data row3 col0" id="T_5cdbf_row3_col0">Gradient Boosting Classifier</td>
+<td class="data row3 col1" id="T_5cdbf_row3_col1">0.9705</td>
+<td class="data row3 col2" id="T_5cdbf_row3_col2">0.9910</td>
+<td class="data row3 col3" id="T_5cdbf_row3_col3">0.9486</td>
+<td class="data row3 col4" id="T_5cdbf_row3_col4">0.9742</td>
+<td class="data row3 col5" id="T_5cdbf_row3_col5">0.9608</td>
+<td class="data row3 col6" id="T_5cdbf_row3_col6">0.9372</td>
+<td class="data row3 col7" id="T_5cdbf_row3_col7">0.9379</td>
+<td class="data row3 col8" id="T_5cdbf_row3_col8">0.1640</td>
 </tr>
 <tr>
-<th class="row_heading level0 row4" id="T_68f00_level0_row4">rf</th>
-<td class="data row4 col0" id="T_68f00_row4_col0">Random Forest Classifier</td>
-<td class="data row4 col1" id="T_68f00_row4_col1">0.9673</td>
-<td class="data row4 col2" id="T_68f00_row4_col2">0.9856</td>
-<td class="data row4 col3" id="T_68f00_row4_col3">0.9486</td>
-<td class="data row4 col4" id="T_68f00_row4_col4">0.9657</td>
-<td class="data row4 col5" id="T_68f00_row4_col5">0.9567</td>
-<td class="data row4 col6" id="T_68f00_row4_col6">0.9304</td>
-<td class="data row4 col7" id="T_68f00_row4_col7">0.9309</td>
-<td class="data row4 col8" id="T_68f00_row4_col8">0.1890</td>
+<th class="row_heading level0 row4" id="T_5cdbf_level0_row4">rf</th>
+<td class="data row4 col0" id="T_5cdbf_row4_col0">Random Forest Classifier</td>
+<td class="data row4 col1" id="T_5cdbf_row4_col1">0.9673</td>
+<td class="data row4 col2" id="T_5cdbf_row4_col2">0.9856</td>
+<td class="data row4 col3" id="T_5cdbf_row4_col3">0.9486</td>
+<td class="data row4 col4" id="T_5cdbf_row4_col4">0.9657</td>
+<td class="data row4 col5" id="T_5cdbf_row4_col5">0.9567</td>
+<td class="data row4 col6" id="T_5cdbf_row4_col6">0.9304</td>
+<td class="data row4 col7" id="T_5cdbf_row4_col7">0.9309</td>
+<td class="data row4 col8" id="T_5cdbf_row4_col8">0.1940</td>
 </tr>
 <tr>
-<th class="row_heading level0 row5" id="T_68f00_level0_row5">et</th>
-<td class="data row5 col0" id="T_68f00_row5_col0">Extra Trees Classifier</td>
-<td class="data row5 col1" id="T_68f00_row5_col1">0.9673</td>
-<td class="data row5 col2" id="T_68f00_row5_col2">0.9794</td>
-<td class="data row5 col3" id="T_68f00_row5_col3">0.9514</td>
-<td class="data row5 col4" id="T_68f00_row5_col4">0.9628</td>
-<td class="data row5 col5" id="T_68f00_row5_col5">0.9568</td>
-<td class="data row5 col6" id="T_68f00_row5_col6">0.9304</td>
-<td class="data row5 col7" id="T_68f00_row5_col7">0.9308</td>
-<td class="data row5 col8" id="T_68f00_row5_col8">0.1530</td>
+<th class="row_heading level0 row5" id="T_5cdbf_level0_row5">et</th>
+<td class="data row5 col0" id="T_5cdbf_row5_col0">Extra Trees Classifier</td>
+<td class="data row5 col1" id="T_5cdbf_row5_col1">0.9673</td>
+<td class="data row5 col2" id="T_5cdbf_row5_col2">0.9794</td>
+<td class="data row5 col3" id="T_5cdbf_row5_col3">0.9514</td>
+<td class="data row5 col4" id="T_5cdbf_row5_col4">0.9628</td>
+<td class="data row5 col5" id="T_5cdbf_row5_col5">0.9568</td>
+<td class="data row5 col6" id="T_5cdbf_row5_col6">0.9304</td>
+<td class="data row5 col7" id="T_5cdbf_row5_col7">0.9308</td>
+<td class="data row5 col8" id="T_5cdbf_row5_col8">0.1840</td>
 </tr>
 <tr>
-<th class="row_heading level0 row6" id="T_68f00_level0_row6">lightgbm</th>
-<td class="data row6 col0" id="T_68f00_row6_col0">Light Gradient Boosting Machine</td>
-<td class="data row6 col1" id="T_68f00_row6_col1">0.9673</td>
-<td class="data row6 col2" id="T_68f00_row6_col2">0.9891</td>
-<td class="data row6 col3" id="T_68f00_row6_col3">0.9486</td>
-<td class="data row6 col4" id="T_68f00_row6_col4">0.9658</td>
-<td class="data row6 col5" id="T_68f00_row6_col5">0.9567</td>
-<td class="data row6 col6" id="T_68f00_row6_col6">0.9304</td>
-<td class="data row6 col7" id="T_68f00_row6_col7">0.9310</td>
-<td class="data row6 col8" id="T_68f00_row6_col8">0.2630</td>
+<th class="row_heading level0 row6" id="T_5cdbf_level0_row6">lightgbm</th>
+<td class="data row6 col0" id="T_5cdbf_row6_col0">Light Gradient Boosting Machine</td>
+<td class="data row6 col1" id="T_5cdbf_row6_col1">0.9673</td>
+<td class="data row6 col2" id="T_5cdbf_row6_col2">0.9891</td>
+<td class="data row6 col3" id="T_5cdbf_row6_col3">0.9486</td>
+<td class="data row6 col4" id="T_5cdbf_row6_col4">0.9658</td>
+<td class="data row6 col5" id="T_5cdbf_row6_col5">0.9567</td>
+<td class="data row6 col6" id="T_5cdbf_row6_col6">0.9304</td>
+<td class="data row6 col7" id="T_5cdbf_row6_col7">0.9310</td>
+<td class="data row6 col8" id="T_5cdbf_row6_col8">0.3080</td>
 </tr>
 <tr>
-<th class="row_heading level0 row7" id="T_68f00_level0_row7">dt</th>
-<td class="data row7 col0" id="T_68f00_row7_col0">Decision Tree Classifier</td>
-<td class="data row7 col1" id="T_68f00_row7_col1">0.9597</td>
-<td class="data row7 col2" id="T_68f00_row7_col2">0.9604</td>
-<td class="data row7 col3" id="T_68f00_row7_col3">0.9514</td>
-<td class="data row7 col4" id="T_68f00_row7_col4">0.9444</td>
-<td class="data row7 col5" id="T_68f00_row7_col5">0.9475</td>
-<td class="data row7 col6" id="T_68f00_row7_col6">0.9148</td>
-<td class="data row7 col7" id="T_68f00_row7_col7">0.9153</td>
-<td class="data row7 col8" id="T_68f00_row7_col8">0.0700</td>
+<th class="row_heading level0 row7" id="T_5cdbf_level0_row7">dt</th>
+<td class="data row7 col0" id="T_5cdbf_row7_col0">Decision Tree Classifier</td>
+<td class="data row7 col1" id="T_5cdbf_row7_col1">0.9597</td>
+<td class="data row7 col2" id="T_5cdbf_row7_col2">0.9604</td>
+<td class="data row7 col3" id="T_5cdbf_row7_col3">0.9514</td>
+<td class="data row7 col4" id="T_5cdbf_row7_col4">0.9444</td>
+<td class="data row7 col5" id="T_5cdbf_row7_col5">0.9475</td>
+<td class="data row7 col6" id="T_5cdbf_row7_col6">0.9148</td>
+<td class="data row7 col7" id="T_5cdbf_row7_col7">0.9153</td>
+<td class="data row7 col8" id="T_5cdbf_row7_col8">0.0740</td>
 </tr>
 <tr>
-<th class="row_heading level0 row8" id="T_68f00_level0_row8">ada</th>
-<td class="data row8 col0" id="T_68f00_row8_col0">Ada Boost Classifier</td>
-<td class="data row8 col1" id="T_68f00_row8_col1">0.9432</td>
-<td class="data row8 col2" id="T_68f00_row8_col2">0.9738</td>
-<td class="data row8 col3" id="T_68f00_row8_col3">0.9314</td>
-<td class="data row8 col4" id="T_68f00_row8_col4">0.9213</td>
-<td class="data row8 col5" id="T_68f00_row8_col5">0.9259</td>
-<td class="data row8 col6" id="T_68f00_row8_col6">0.8798</td>
-<td class="data row8 col7" id="T_68f00_row8_col7">0.8804</td>
-<td class="data row8 col8" id="T_68f00_row8_col8">0.1440</td>
+<th class="row_heading level0 row8" id="T_5cdbf_level0_row8">ada</th>
+<td class="data row8 col0" id="T_5cdbf_row8_col0">Ada Boost Classifier</td>
+<td class="data row8 col1" id="T_5cdbf_row8_col1">0.9432</td>
+<td class="data row8 col2" id="T_5cdbf_row8_col2">0.9738</td>
+<td class="data row8 col3" id="T_5cdbf_row8_col3">0.9314</td>
+<td class="data row8 col4" id="T_5cdbf_row8_col4">0.9213</td>
+<td class="data row8 col5" id="T_5cdbf_row8_col5">0.9259</td>
+<td class="data row8 col6" id="T_5cdbf_row8_col6">0.8798</td>
+<td class="data row8 col7" id="T_5cdbf_row8_col7">0.8804</td>
+<td class="data row8 col8" id="T_5cdbf_row8_col8">0.1510</td>
 </tr>
 <tr>
-<th class="row_heading level0 row9" id="T_68f00_level0_row9">nb</th>
-<td class="data row9 col0" id="T_68f00_row9_col0">Naive Bayes</td>
-<td class="data row9 col1" id="T_68f00_row9_col1">0.9334</td>
-<td class="data row9 col2" id="T_68f00_row9_col2">0.9780</td>
-<td class="data row9 col3" id="T_68f00_row9_col3">0.9514</td>
-<td class="data row9 col4" id="T_68f00_row9_col4">0.8841</td>
-<td class="data row9 col5" id="T_68f00_row9_col5">0.9162</td>
-<td class="data row9 col6" id="T_68f00_row9_col6">0.8611</td>
-<td class="data row9 col7" id="T_68f00_row9_col7">0.8632</td>
-<td class="data row9 col8" id="T_68f00_row9_col8">0.0710</td>
+<th class="row_heading level0 row9" id="T_5cdbf_level0_row9">nb</th>
+<td class="data row9 col0" id="T_5cdbf_row9_col0">Naive Bayes</td>
+<td class="data row9 col1" id="T_5cdbf_row9_col1">0.9334</td>
+<td class="data row9 col2" id="T_5cdbf_row9_col2">0.9780</td>
+<td class="data row9 col3" id="T_5cdbf_row9_col3">0.9514</td>
+<td class="data row9 col4" id="T_5cdbf_row9_col4">0.8841</td>
+<td class="data row9 col5" id="T_5cdbf_row9_col5">0.9162</td>
+<td class="data row9 col6" id="T_5cdbf_row9_col6">0.8611</td>
+<td class="data row9 col7" id="T_5cdbf_row9_col7">0.8632</td>
+<td class="data row9 col8" id="T_5cdbf_row9_col8">0.0720</td>
 </tr>
 <tr>
-<th class="row_heading level0 row10" id="T_68f00_level0_row10">svm</th>
-<td class="data row10 col0" id="T_68f00_row10_col0">SVM - Linear Kernel</td>
-<td class="data row10 col1" id="T_68f00_row10_col1">0.7687</td>
-<td class="data row10 col2" id="T_68f00_row10_col2">0.8830</td>
-<td class="data row10 col3" id="T_68f00_row10_col3">0.7800</td>
-<td class="data row10 col4" id="T_68f00_row10_col4">0.7551</td>
-<td class="data row10 col5" id="T_68f00_row10_col5">0.7206</td>
-<td class="data row10 col6" id="T_68f00_row10_col6">0.5375</td>
-<td class="data row10 col7" id="T_68f00_row10_col7">0.5754</td>
-<td class="data row10 col8" id="T_68f00_row10_col8">0.0820</td>
+<th class="row_heading level0 row10" id="T_5cdbf_level0_row10">svm</th>
+<td class="data row10 col0" id="T_5cdbf_row10_col0">SVM - Linear Kernel</td>
+<td class="data row10 col1" id="T_5cdbf_row10_col1">0.7687</td>
+<td class="data row10 col2" id="T_5cdbf_row10_col2">0.8830</td>
+<td class="data row10 col3" id="T_5cdbf_row10_col3">0.7800</td>
+<td class="data row10 col4" id="T_5cdbf_row10_col4">0.7551</td>
+<td class="data row10 col5" id="T_5cdbf_row10_col5">0.7206</td>
+<td class="data row10 col6" id="T_5cdbf_row10_col6">0.5375</td>
+<td class="data row10 col7" id="T_5cdbf_row10_col7">0.5754</td>
+<td class="data row10 col8" id="T_5cdbf_row10_col8">0.0770</td>
 </tr>
 <tr>
-<th class="row_heading level0 row11" id="T_68f00_level0_row11">knn</th>
-<td class="data row11 col0" id="T_68f00_row11_col0">K Neighbors Classifier</td>
-<td class="data row11 col1" id="T_68f00_row11_col1">0.7260</td>
-<td class="data row11 col2" id="T_68f00_row11_col2">0.7639</td>
-<td class="data row11 col3" id="T_68f00_row11_col3">0.5714</td>
-<td class="data row11 col4" id="T_68f00_row11_col4">0.6660</td>
-<td class="data row11 col5" id="T_68f00_row11_col5">0.6129</td>
-<td class="data row11 col6" id="T_68f00_row11_col6">0.4032</td>
-<td class="data row11 col7" id="T_68f00_row11_col7">0.4075</td>
-<td class="data row11 col8" id="T_68f00_row11_col8">0.0850</td>
+<th class="row_heading level0 row11" id="T_5cdbf_level0_row11">knn</th>
+<td class="data row11 col0" id="T_5cdbf_row11_col0">K Neighbors Classifier</td>
+<td class="data row11 col1" id="T_5cdbf_row11_col1">0.7260</td>
+<td class="data row11 col2" id="T_5cdbf_row11_col2">0.7639</td>
+<td class="data row11 col3" id="T_5cdbf_row11_col3">0.5714</td>
+<td class="data row11 col4" id="T_5cdbf_row11_col4">0.6660</td>
+<td class="data row11 col5" id="T_5cdbf_row11_col5">0.6129</td>
+<td class="data row11 col6" id="T_5cdbf_row11_col6">0.4032</td>
+<td class="data row11 col7" id="T_5cdbf_row11_col7">0.4075</td>
+<td class="data row11 col8" id="T_5cdbf_row11_col8">0.0850</td>
 </tr>
 <tr>
-<th class="row_heading level0 row12" id="T_68f00_level0_row12">dummy</th>
-<td class="data row12 col0" id="T_68f00_row12_col0">Dummy Classifier</td>
-<td class="data row12 col1" id="T_68f00_row12_col1">0.6179</td>
-<td class="data row12 col2" id="T_68f00_row12_col2">0.5000</td>
-<td class="data row12 col3" id="T_68f00_row12_col3">0.0000</td>
-<td class="data row12 col4" id="T_68f00_row12_col4">0.0000</td>
-<td class="data row12 col5" id="T_68f00_row12_col5">0.0000</td>
-<td class="data row12 col6" id="T_68f00_row12_col6">0.0000</td>
-<td class="data row12 col7" id="T_68f00_row12_col7">0.0000</td>
-<td class="data row12 col8" id="T_68f00_row12_col8">0.0690</td>
+<th class="row_heading level0 row12" id="T_5cdbf_level0_row12">dummy</th>
+<td class="data row12 col0" id="T_5cdbf_row12_col0">Dummy Classifier</td>
+<td class="data row12 col1" id="T_5cdbf_row12_col1">0.6179</td>
+<td class="data row12 col2" id="T_5cdbf_row12_col2">0.5000</td>
+<td class="data row12 col3" id="T_5cdbf_row12_col3">0.0000</td>
+<td class="data row12 col4" id="T_5cdbf_row12_col4">0.0000</td>
+<td class="data row12 col5" id="T_5cdbf_row12_col5">0.0000</td>
+<td class="data row12 col6" id="T_5cdbf_row12_col6">0.0000</td>
+<td class="data row12 col7" id="T_5cdbf_row12_col7">0.0000</td>
+<td class="data row12 col8" id="T_5cdbf_row12_col8">0.0720</td>
 </tr>
 <tr>
-<th class="row_heading level0 row13" id="T_68f00_level0_row13">qda</th>
-<td class="data row13 col0" id="T_68f00_row13_col0">Quadratic Discriminant Analysis</td>
-<td class="data row13 col1" id="T_68f00_row13_col1">0.3930</td>
-<td class="data row13 col2" id="T_68f00_row13_col2">0.0994</td>
-<td class="data row13 col3" id="T_68f00_row13_col3">1.0000</td>
-<td class="data row13 col4" id="T_68f00_row13_col4">0.3867</td>
-<td class="data row13 col5" id="T_68f00_row13_col5">0.5576</td>
-<td class="data row13 col6" id="T_68f00_row13_col6">0.0139</td>
-<td class="data row13 col7" id="T_68f00_row13_col7">0.0274</td>
-<td class="data row13 col8" id="T_68f00_row13_col8">0.0780</td>
+<th class="row_heading level0 row13" id="T_5cdbf_level0_row13">qda</th>
+<td class="data row13 col0" id="T_5cdbf_row13_col0">Quadratic Discriminant Analysis</td>
+<td class="data row13 col1" id="T_5cdbf_row13_col1">0.3930</td>
+<td class="data row13 col2" id="T_5cdbf_row13_col2">0.0994</td>
+<td class="data row13 col3" id="T_5cdbf_row13_col3">1.0000</td>
+<td class="data row13 col4" id="T_5cdbf_row13_col4">0.3867</td>
+<td class="data row13 col5" id="T_5cdbf_row13_col5">0.5576</td>
+<td class="data row13 col6" id="T_5cdbf_row13_col6">0.0139</td>
+<td class="data row13 col7" id="T_5cdbf_row13_col7">0.0274</td>
+<td class="data row13 col8" id="T_5cdbf_row13_col8">0.1420</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 <div class="jp-OutputArea-child">
-<div class="jupyter-widgets jp-OutputArea-output" id="cab8482c-a0db-4fab-b394-de3ce325e46f" tabindex="0">
+<div class="jupyter-widgets jp-OutputArea-output" id="b7b1c4ed-9ca2-468d-b324-e7f10b5db51f" tabindex="0">
 <script type="text/javascript">
-var element = document.getElementById('cab8482c-a0db-4fab-b394-de3ce325e46f');
+var element = document.getElementById('b7b1c4ed-9ca2-468d-b324-e7f10b5db51f');
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"version_major": 2, "version_minor": 0, "model_id": "902de54c5aed472a97371ef821dbd7fb"}
+{"version_major": 2, "version_minor": 0, "model_id": "85964d25056d400d90fd49ee571e9b0e"}
 </script>
 </div>
 </div>
@@ -9762,7 +9759,7 @@ var element = document.getElementById('cab8482c-a0db-4fab-b394-de3ce325e46f');
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Najlepszym-algorytmem-i-najszybciej-dzia%C5%82aj%C4%85cym-wybranym-przez-pycaret-zosta%C5%82-%22ridge-classifier%22,-kt%C3%B3ry-w-te%C5%9Bcie-uzyska%C5%82-97,6%25-skuteczno%C5%9Bci.">Najlepszym algorytmem i najszybciej działającym wybranym przez pycaret został "ridge classifier", który w teście uzyskał 97,6% skuteczności.<a class="anchor-link" href="#Najlepszym-algorytmem-i-najszybciej-dzia%C5%82aj%C4%85cym-wybranym-przez-pycaret-zosta%C5%82-%22ridge-classifier%22,-kt%C3%B3ry-w-te%C5%9Bcie-uzyska%C5%82-97,6%25-skuteczno%C5%9Bci.">¶</a></h4>
+<p style="text-align: justify;">The best and fastest algorithm selected by PyCaret was the "Ridge Classifier," which achieved an accuracy of 97.6% in the test.</p>
 </div>
 </div>
 </div>
@@ -9772,7 +9769,7 @@ var element = document.getElementById('cab8482c-a0db-4fab-b394-de3ce325e46f');
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Teraz-narysujemy-%22confusion-matrix%22,-aby-zobaczy%C4%87-liczb%C4%99-b%C5%82%C4%99d%C3%B3w-modelu:">Teraz narysujemy "confusion matrix", aby zobaczyć liczbę błędów modelu:<a class="anchor-link" href="#Teraz-narysujemy-%22confusion-matrix%22,-aby-zobaczy%C4%87-liczb%C4%99-b%C5%82%C4%99d%C3%B3w-modelu:">¶</a></h4>
+<p style="text-align: justify;">Now we can draw a confusion matrix to see the number of mistakes made by the model:</p>
 </div>
 </div>
 </div>
@@ -9798,7 +9795,7 @@ var element = document.getElementById('cab8482c-a0db-4fab-b394-de3ce325e46f');
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Widzimy,-%C5%BCe-model-pope%C5%82ni%C5%82-10-b%C5%82%C4%99d%C3%B3w-na-393-rekordy,-po-5-false-positives-i-false-negatives.">Widzimy, że model popełnił 10 błędów na 393 rekordy, po 5 false positives i false negatives.<a class="anchor-link" href="#Widzimy,-%C5%BCe-model-pope%C5%82ni%C5%82-10-b%C5%82%C4%99d%C3%B3w-na-393-rekordy,-po-5-false-positives-i-false-negatives.">¶</a></h4>
+<p style="text-align: justify;">We can see that the model made 10 errors out of 393 records, with 5 false positives and 5 false negatives.</p>
 </div>
 </div>
 </div>
@@ -9808,7 +9805,7 @@ var element = document.getElementById('cab8482c-a0db-4fab-b394-de3ce325e46f');
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Mo%C5%BCemy-jeszcze-zobaczy%C4%87,-kt%C3%B3re-cechy-mia%C5%82y-najwi%C4%99kszy-wp%C5%82yw,-podczas-trenowania:">Możemy jeszcze zobaczyć, które cechy miały największy wpływ, podczas trenowania:<a class="anchor-link" href="#Mo%C5%BCemy-jeszcze-zobaczy%C4%87,-kt%C3%B3re-cechy-mia%C5%82y-najwi%C4%99kszy-wp%C5%82yw,-podczas-trenowania:">¶</a></h4>
+<p style="text-align: justify;">We can also check which features had the greatest impact during training:</p>
 </div>
 </div>
 </div>
@@ -9834,7 +9831,7 @@ var element = document.getElementById('cab8482c-a0db-4fab-b394-de3ce325e46f');
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="Widzimy,-%C5%BCe-zdecydowanie-najwi%C4%99kszy-wp%C5%82yw-na-to-mia%C5%82a-kolumna-%22boat%22.">Widzimy, że zdecydowanie największy wpływ na to miała kolumna "boat".<a class="anchor-link" href="#Widzimy,-%C5%BCe-zdecydowanie-najwi%C4%99kszy-wp%C5%82yw-na-to-mia%C5%82a-kolumna-%22boat%22.">¶</a></h4>
+<p style="text-align: justify;">We see that the "boat" column had by far the greatest impact on the predictions.</p>
 </div>
 </div>
 </div>
@@ -9842,6 +9839,6 @@ var element = document.getElementById('cab8482c-a0db-4fab-b394-de3ce325e46f');
 </main>
 </body>
 <script type="application/vnd.jupyter.widget-state+json">
-{"state": {"5051c6be46184defa5ebba4fbeeff15b": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "1.2.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "6f45d55162bf4a479abfe396e02a869d": {"model_name": "ProgressStyleModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "1.5.0", "state": {"_model_module": "@jupyter-widgets\/controls", "_model_module_version": "1.5.0", "_model_name": "ProgressStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "bar_color": null, "description_width": ""}}, "6e5c1a0b793b4ddab1771a668ca2e3bb": {"model_name": "FloatProgressModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "1.5.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "1.5.0", "_model_name": "FloatProgressModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "1.5.0", "_view_name": "ProgressView", "bar_style": "", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_5051c6be46184defa5ebba4fbeeff15b", "max": 61.0, "min": 0.0, "orientation": "horizontal", "style": "IPY_MODEL_6f45d55162bf4a479abfe396e02a869d", "value": 61.0}}, "6237d4ce7d134ac3854bded800fb80fc": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "1.2.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "a36c438f4a8d4180b889fdf107609f2b": {"model_name": "DescriptionStyleModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "1.5.0", "state": {"_model_module": "@jupyter-widgets\/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "fd09523910d44e5d823d7209624b7539": {"model_name": "HTMLModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "1.5.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_6237d4ce7d134ac3854bded800fb80fc", "placeholder": "\u200b", "style": "IPY_MODEL_a36c438f4a8d4180b889fdf107609f2b", "value": "Processing:\u2007100%"}}, "001d2ffaee354d6db311a95c51ec2198": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "1.2.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "3f344b44acf6465c8d0df47388a748bd": {"model_name": "DescriptionStyleModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "1.5.0", "state": {"_model_module": "@jupyter-widgets\/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "f2cb2bf50a284618b169312d5b33298f": {"model_name": "HTMLModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "1.5.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_001d2ffaee354d6db311a95c51ec2198", "placeholder": "\u200b", "style": "IPY_MODEL_3f344b44acf6465c8d0df47388a748bd", "value": "\u200761\/61\u2007[00:29&lt;00:00,\u2007\u20073.45it\/s]"}}, "ed71f6228d7343eb98138b2dc2205846": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "1.2.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": "hidden", "width": null}}, "902de54c5aed472a97371ef821dbd7fb": {"model_name": "HBoxModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "1.5.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "1.5.0", "_model_name": "HBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "1.5.0", "_view_name": "HBoxView", "box_style": "", "children": ["IPY_MODEL_fd09523910d44e5d823d7209624b7539", "IPY_MODEL_6e5c1a0b793b4ddab1771a668ca2e3bb", "IPY_MODEL_f2cb2bf50a284618b169312d5b33298f"], "layout": "IPY_MODEL_ed71f6228d7343eb98138b2dc2205846"}}}, "version_major": 2, "version_minor": 0}
+{"state": {"a3651a9b5df2475fb9e68988e09ed748": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "1.2.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "8b78dbb4f7fc493e8815dfe071f1814a": {"model_name": "ProgressStyleModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "1.5.0", "state": {"_model_module": "@jupyter-widgets\/controls", "_model_module_version": "1.5.0", "_model_name": "ProgressStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "bar_color": null, "description_width": ""}}, "41f11ae450854c5295b1bcad2dd177e7": {"model_name": "FloatProgressModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "1.5.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "1.5.0", "_model_name": "FloatProgressModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "1.5.0", "_view_name": "ProgressView", "bar_style": "", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_a3651a9b5df2475fb9e68988e09ed748", "max": 61.0, "min": 0.0, "orientation": "horizontal", "style": "IPY_MODEL_8b78dbb4f7fc493e8815dfe071f1814a", "value": 61.0}}, "a448df206ab04e198c55e3274b15c863": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "1.2.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "92bbf971486d43a38878c56b8532e4ea": {"model_name": "DescriptionStyleModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "1.5.0", "state": {"_model_module": "@jupyter-widgets\/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "205fbe20044a4109b724091669d8c83d": {"model_name": "HTMLModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "1.5.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_a448df206ab04e198c55e3274b15c863", "placeholder": "\u200b", "style": "IPY_MODEL_92bbf971486d43a38878c56b8532e4ea", "value": "Processing:\u2007100%"}}, "6baa50a57d6c476f8deb12e1e4a5a7e9": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "1.2.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "89aac7fa30c24d16b3cd758b0ec570ac": {"model_name": "DescriptionStyleModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "1.5.0", "state": {"_model_module": "@jupyter-widgets\/controls", "_model_module_version": "1.5.0", "_model_name": "DescriptionStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "1.2.0", "_view_name": "StyleView", "description_width": ""}}, "d445f6a812c740619dbd557bcb597efd": {"model_name": "HTMLModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "1.5.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "1.5.0", "_model_name": "HTMLModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "1.5.0", "_view_name": "HTMLView", "description": "", "description_tooltip": null, "layout": "IPY_MODEL_6baa50a57d6c476f8deb12e1e4a5a7e9", "placeholder": "\u200b", "style": "IPY_MODEL_89aac7fa30c24d16b3cd758b0ec570ac", "value": "\u200761\/61\u2007[00:34&lt;00:00,\u2007\u20073.07it\/s]"}}, "4282caecde454c679d0cdbdb7771dff3": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "1.2.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "1.2.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "1.2.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "overflow_x": null, "overflow_y": null, "padding": null, "right": null, "top": null, "visibility": "hidden", "width": null}}, "85964d25056d400d90fd49ee571e9b0e": {"model_name": "HBoxModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "1.5.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "1.5.0", "_model_name": "HBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "1.5.0", "_view_name": "HBoxView", "box_style": "", "children": ["IPY_MODEL_205fbe20044a4109b724091669d8c83d", "IPY_MODEL_41f11ae450854c5295b1bcad2dd177e7", "IPY_MODEL_d445f6a812c740619dbd557bcb597efd"], "layout": "IPY_MODEL_4282caecde454c679d0cdbdb7771dff3"}}}, "version_major": 2, "version_minor": 0}
 </script>
 </html>
