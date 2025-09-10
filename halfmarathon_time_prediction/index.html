@@ -12,13 +12,13 @@
         <meta name="author" content="Piotr Mazur">
       
       
-        <link rel="canonical" href="https://pimazur.github.io/ds_ai_portfolio/iris/">
+        <link rel="canonical" href="https://pimazur.github.io/ds_ai_portfolio/halfmarathon_time_prediction/">
       
       
-        <link rel="prev" href="../image_finder/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../titanic/">
+        <link rel="next" href="../video_audio_summary/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Iris - My Projects</title>
+        <title>Halfmarathon time prediction - My Projects</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#eda-data-analysis-of-iris-flowers-domain-exploration" class="md-skip">
+        <a href="#half-marathon-time-predictor" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Iris
+              Halfmarathon time prediction
             
           </span>
         </div>
@@ -253,18 +253,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -280,7 +282,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Current project
@@ -291,10 +293,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../halfmarathon_time_prediction/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -305,6 +316,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -321,20 +333,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -350,7 +360,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Previous projects
@@ -407,19 +417,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../iris/" class="md-nav__link">
         
   
   
@@ -430,7 +431,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -503,32 +503,13 @@
   
 
 
-<h1 id="eda-data-analysis-of-iris-flowers-domain-exploration">EDA Data Analysis of Iris Flowers: Domain Exploration</h1>
+<h1 id="half-marathon-time-predictor">Half marathon time predictor</h1>
 <div style="text-align: justify;">
-    I invite you to explore my analysis of the popular iris dataset using exploratory data analysis (EDA). In this project, you will find plenty of insightful conclusions and interesting observations that shed new light on these beautiful flowers.
+    This is the application for estimating runner's half marathon time. The prediction model was created with the data from 2023 and 2024 Wroclaws' half marathons using pycaret library.
+    The app is wrapped in Streamlit and running on Digital Ocean cloud. It is also integrated with Langfuse to monitor the effectiveness of the LLM, which collects data from the user.
 </div>
 
-<p><a href="notebook/iris.ipynb" class="md-button md-button--primary">Download the Notebook</a></p>
-<p><iframe
-    id="content"
-    src="iris.html"
-    width="100%"
-    style="border:1px solid black;overflow:hidden;"
-></iframe></p>
-<script>
-function resizeIframeToFitContent(iframe) {
-    iframe.style.height = (iframe.contentWindow.document.documentElement.scrollHeight + 50) + "px";
-    iframe.contentDocument.body.style["overflow"] = 'hidden';
-}
-window.addEventListener('load', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-window.addEventListener('resize', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-</script>
+<p><a href="https://pimazur-imagefinder.streamlit.app/" class="md-button md-button--primary">Go to the app</a></p>
 
 
 
