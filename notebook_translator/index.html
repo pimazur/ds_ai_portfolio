@@ -12,13 +12,11 @@
         <meta name="author" content="Piotr Mazur">
       
       
-        <link rel="canonical" href="https://pimazur.github.io/ds_ai_portfolio/video_audio_summary/">
+        <link rel="canonical" href="https://pimazur.github.io/ds_ai_portfolio/notebook_translator/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../halfmarathon_time_prediction/">
       
-      
-        <link rel="next" href="../image_finder/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -26,7 +24,7 @@
     
     
       
-        <title>Video/Audio summary - My Projects</title>
+        <title>Notebook translator - My Projects</title>
       
     
     
@@ -77,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#translate-your-notebook" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -109,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Video/Audio summary
+              Notebook translator
             
           </span>
         </div>
@@ -248,20 +251,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -277,7 +278,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Projects
@@ -288,17 +289,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../video_audio_summary/" class="md-nav__link">
         
   
   
@@ -309,7 +303,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -418,18 +411,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -445,7 +440,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Useful tools
@@ -456,10 +451,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../notebook_translator/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -470,6 +474,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -499,6 +504,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -517,17 +524,15 @@
   
 
 
-<header style="text-align: justify;">
-    <h1>
-        Video/Audio summary - an application for generating short text summaries of audio and video files
-    </h1>
-</header>
-
+<h1 id="translate-your-notebook">Translate your notebook</h1>
 <div style="text-align: justify;">
-    Video/Audio Summary is an application that allows transcription and generation of summaries for audio and video files. It uses OpenAI models "whisper-1" and "gpt-4o-mini" for this purpose.
+    The application was created to help people translate their Jupyter notebooks when they prepared them in Polish, but then needed to present the notebooks in English. I first used it when I completed my iris flower EDA analysis. I did it in Polish, but then, to present it as my project, I needed to translate it into English. I realized that there were 40 markdown cells that I had to translate one by one. This led me to the idea of creating this tool to help myself do it.
+<p>
+    The application is built with Streamlit. It runs on the DigitalOcean cloud. It also uses Langfuse to monitor the results of the LLM used for translating cells.
+</p>
 </div>
 
-<p><a href="https://pimazur-video-audio-summary.streamlit.app/" class="md-button md-button--primary">Go to the app</a></p>
+<p><a href="https://pimazur-n2rpu.ondigitalocean.app/" class="md-button md-button--primary">Go to the app</a></p>
 
 
 
